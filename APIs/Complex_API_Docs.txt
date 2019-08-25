@@ -1,0 +1,4 @@
+Here are the pathfinder API endpoints:
+
+Monster api : https://vxe45sf1th.execute-api.us-east-1.amazonaws.com/1/main?name={name} - search by name
+Spells api: : https://vxe45sf1th.execute-api.us-east-1.amazonaws.com/1/spells?name={name} - search by name 
