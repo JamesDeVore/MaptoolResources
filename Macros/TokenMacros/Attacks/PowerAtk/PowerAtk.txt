@@ -1,0 +1,2 @@
+Power Attack:<br>
+[-(1+floor(BAB/4))]/+[2*(1+floor(BAB/4))]

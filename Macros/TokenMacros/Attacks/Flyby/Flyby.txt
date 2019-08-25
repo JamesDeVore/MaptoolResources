@@ -1,0 +1,1 @@
+[s:"When flying, the creature can take a move action and another standard action at any point during the move. The creature cannot take a second move action during a round when it makes a flyby attack"]

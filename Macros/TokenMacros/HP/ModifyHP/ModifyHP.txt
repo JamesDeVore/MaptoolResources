@@ -1,0 +1,20 @@
+[h: input("toss|0|Rember your DR!")] 
+
+[h: input(
+"mode|Damage,Heal,Temp HP,Nonlethal|Choose|RADIO|ORIENT=H",
+"Amt|0|Amount|TEXT"
+)]
+[h, switch(mode),code:
+case 0: {
+
+[HP = HP - Amt + min(TempHP, Amt)]
+ [TempHP = max(0, TempHP - Amt)]
+};
+case 1: {
+ [HP = min(HP + Amt, MaxHP)]
+ [Nonlethal = max(Nonlethal - Amt, 0)]
+};
+case 2: { [TempHP = TempHP + Amt] };
+case 3: { [Nonlethal = Nonlethal + Amt] }]
+[h:bar.Health = HP / MaxHP]
+[s:CurrentHitPoints]

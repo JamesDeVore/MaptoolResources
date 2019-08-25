@@ -1,0 +1,5 @@
+[h:input("spell|1,2,3,4,5,6,7,8,9|Which spell needs to be changed? |RADIO|ORIENT=V,",
+"val|0|What is its new value?"
+)]
+[h:Extra5 = json.set(Extra5,string(spell + 1),val)]
+[s:"Level "+ string(spell + 1) + " spell set to " + string(val) + " uses"]

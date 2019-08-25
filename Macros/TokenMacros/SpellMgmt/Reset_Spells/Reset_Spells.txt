@@ -1,0 +1,16 @@
+[h:"Aj, set these to your max spell numbers per day. I'm not smart enough to write a formula"]
+[h:"You will only need to change these as you level up though."]
+[h,code:{
+[max1 = 9]
+[max2 = 5]
+[max3 = 4]
+[max4 = 3]
+[max5 = 2]
+[max6 = 1]
+[max7 = 0]
+[max8 = 0]
+[max9 = 0]
+}]
+
+[h: Extra5 = json.set(Extra5,"1",max1,"2",max2,"3",max3,"4",max4,"5",max5,"6",max6,"7",max7,"8",max8,"9",max9)]
+[s:"Spells reset to maximum counts"]

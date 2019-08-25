@@ -1,0 +1,24 @@
+[h:Name="Masterwork longsword"]
+[h:type="slashing"]
+[h:dice=8]
+[h:ndice=1]
+[h:attack_bonus=7]
+[h:crit_low=19]
+[h:damage_mod=StrMod]
+[h:crit_mult=2]
+[h:damage_dice=roll(ndice,dice)]
+[h:crit_dice=roll(ndice,dice)]
+[h:attack_stat=StrMod]
+
+[h:roll=1d20]
+
+[h:crit_damage=reroll(crit_mult-1, dice+damage_mod, 1+damage_mod)]
+
+[Name]: [roll+attack_stat+BAB-SizeMod+attack_bonus]<br>
+[damage_dice+damage_mod] [type]
+
+[if(roll>=crit_low), CODE:{
+<br>
+Crit chance! [1d20+attack_stat+BAB-SizeMod+attack_bonus] to confirm<br>
+[crit_damage] extra damage
+};{}]

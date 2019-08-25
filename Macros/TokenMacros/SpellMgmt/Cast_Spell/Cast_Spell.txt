@@ -1,0 +1,15 @@
+[h:choicesString = ""]
+[h,for(i,1,10,1,","),code:{
+	[choicesString = choicesString + string(i) + " --- Left: " + string(json.get(Extra5,i)) ]
+	[h,if(i == 9),code:{};{[choicesString = choicesString + ","]}]
+	}]
+[h:input("lvl|" + choicesString + "|What level spell?|RADIO|ORIENT=V")]
+[code:{
+[h: lvl = lvl + 1]
+[if(json.get(Extra5,lvl) > 0),code:{
+[h:Extra5 = json.set(Extra5,lvl,json.get(Extra5,lvl) - 1)]
+Casting a level [lvl] spell, I have [json.get(Extra5,lvl)] spells of that level left
+};{
+[s:"All out of that spell level"]
+}]
+}]

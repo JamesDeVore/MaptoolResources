@@ -1,0 +1,1 @@
+Creatures in contact take [1d6] fire damage

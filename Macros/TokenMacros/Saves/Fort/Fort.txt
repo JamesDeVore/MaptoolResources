@@ -1,0 +1,1 @@
+Fort: [1d20+Fortitude]

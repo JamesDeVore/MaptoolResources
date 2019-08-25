@@ -1,0 +1,3 @@
+[h: halfHD = floor(Extra / 2)]
+Kablooey! People adjacent squares must roll a [halfHD + ChaMod + 10] DC reflex save.<br>
+Damage is [roll(halfHD,6)]

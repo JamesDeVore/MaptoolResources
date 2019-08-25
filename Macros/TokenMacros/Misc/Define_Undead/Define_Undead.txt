@@ -1,0 +1,93 @@
+[h:input(
+	"Type|Skeleton,Zombie|Type of Undead|RADIO|ORIENT=H",
+	"HD|1|Number of Hit Dice for base creature",
+	"Size|Small,Medium,Large, Huge|Size|RADIO|ORIENT=H",
+	"Strength|10|Base Creature Strength",
+	"Dexterity|10|Base Creature Dexterity",
+	"OldArmor|0|Base Creature Armor Bonus",
+	
+	"DamageDice|4|Damage Dice",
+	"NumDice|1|Number of Damage Dice"
+	)]
+
+[h:randomName = 69d420]
+[h,switch(Size):
+	case 0: setSize("Small");
+	case 1: setSize("Medium");
+	case 2: setSize("Large");
+	case 3: setSize("Huge");
+	]
+[h,if(Type==0),CODE:{
+[h:bonus = 0]
+[h:token.name = "Corvin's Skeleton" + randomName]
+[h,switch(Size):
+    case 0: nArmor =  1;
+    case 1: nArmor = 2;
+    case 2: nArmor = 2;
+    case 3: nArmor = 3;
+]
+[h:Dexterity = Dexterity + 2]
+}]
+
+
+[h,if(Type == 1),CODE:{
+	[h:token.name = "Corvin's Zombie" + randomName]
+	[h:Dexterity = Dexterity - 2]
+	[h:Strength = Strength + 2]
+	[h,switch(Size), CODE:
+		case 0: {
+			[HD = HD + 1]
+			[nArmor = 1]
+		};
+		case 1:{
+			[HD = HD + 1]
+			[nArmor =  2]
+		};
+		case 2:{
+			[HD = HD + 2]
+			[nArmor = 3]
+		};
+		case 3:{
+			[HD = HD + 4]
+			[nArmor = 4]
+		}
+	]
+	[h,if(HD > 3):bonus = HD]
+	[h,if(HD <= 3):bonus = 3]
+}]
+
+
+
+[h:
+nArmor =nArmor + OldArmor
+]
+
+[h,if(Type ==1):nArmor = nArmor + 2]
+[h:MaxHP = roll(HD,8)  +ChaMod + bonus]
+[h:Charisma = 10]
+[h:Wisdom = 10]
+[h:Constitution = 0]
+[h:Intelligence = 0]
+[h:BAB = floor(3 * Extra / 4)]
+[h:Armor = nArmor]
+[h:Extra2 = DamageDice]
+[h:Extra3 = NumDice]
+
+[h,if(Type == 0), CODE:{
+	[h:input(
+	"variant|Normal, Burning Skeleton|Type of Skeleton|RADIO|ORIENT=H"
+	)]
+	[h,if(variant == 1), CODE:{
+		[h:Charisma = 12]
+		[h: MaxHP + (ChaMod * HD)]
+		[h: HD = HD * 2]
+		[h: token.name = "Corvin's Fire Skeleton" randomName]
+	}]
+
+}]
+
+
+[h:Extra = HD]
+[h: HP = MaxHP]
+[h:token.name= "(" + HD + ") " + token.name]
+

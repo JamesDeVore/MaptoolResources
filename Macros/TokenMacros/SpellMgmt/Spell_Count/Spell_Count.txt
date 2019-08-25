@@ -1,0 +1,3 @@
+[s,for(i,9,0,-1,"<br />"),code:{
+	Level [i]: <strong>[json.get(Extra5,i)]</strong>
+	}]
