@@ -38,5 +38,10 @@
 	[h:createMacro(spellName, decode(command), macroProps)]
 		}]
 
-	[input("continue|No,Yes|Would you like to add another?|RADIO|")]
+	[input("yesno|No,Yes|Would you like to add another?|RADIO|")]
+	[h,if(yesno == 1),code:{
+		[h:continue = 0]
+		};{
+			[continue = 1]
+			}]
 	}]
