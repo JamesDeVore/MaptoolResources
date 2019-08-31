@@ -1,0 +1,42 @@
+[h:continue = 0]
+[while(continue == 0),code:{
+	[h:input("spellName|Fireball|Which spell do you want to prepare?","numSpells|1|How many uses?")]
+	[h:url =  "https://vxe45sf1th.execute-api.us-east-1.amazonaws.com/1/spells?name=" +spellName]
+	[h:response = REST.get(url,0)]
+	[if(json.get(response,"statusCode")==404),code:{
+		Spell not found :(
+			
+		};{}]
+	[h:body = json.get(response,"body")]
+	[h:allNames = ""]
+	[h,foreach(spell,body),code:{
+		[h:allNames = allNames + (json.get(spell,"name") +",")]
+		}]
+	[h:input("chosen|" + allNames + "|Which spell?|RADIO")]
+	[h:chosenSpell = json.get(body,chosen)]
+	[h:spellName = json.get(chosenSpell,"name")]
+	[h:spellDur = json.get(chosenSpell,"duration")]
+	[h:spellDesc = getGroup(strfind(json.get(chosenSpell,"description"),"^(.*?)[.?!]"),1,1)]
+	[h:spellArea = json.get(chosenSpell,"area")]
+	[h:spellLink = json.get(chosenSpell,"linktext")]
+	[h:range = json.get(chosenSpell,"range")]
+	[h:save = json.get(chosenSpell,"saving_throw")]
+	[h:command = encode("Casting " + spellName + "!")]
+	[h:command = command + encode("<ul>")]
+	[h:command = command + encode("<li>Range: " + range + "</li>")]
+	[h:command = command + encode("<li>Duration: " + spellDur + "</li>")]
+	[h:command = command + encode("<li>Description: " + spellDesc + "</li>")]
+	[h:command = command + encode("<li><a href=" + "'" + spellLink + "'>" + spellName + "</a></li>")]
+	[h:command = command + encode("</ul>")]
+	[h:command = command + encode("[h: macIndex = getMacroIndexes(" + '"'+  spellName + '"' + ","+'"json"' + ")]")]
+	[h:command = command + encode("[h: macIndex = json.get(macIndex,0)]")]
+	[h:command = command + encode("[removeMacro(macIndex)]")]
+	[h:macroProps="autoexec=true;"]
+	[h:group="Prepared Spells"]
+	[h:macroProps=setStrProp(macroProps,"group",group)]
+	[h,for(i,0,numSpells,1,""),code:{
+	[h:createMacro(spellName, decode(command), macroProps)]
+		}]
+
+	[input("continue|No,Yes|Would you like to add another?|RADIO|")]
+	}]
