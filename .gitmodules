@@ -1,3 +1,7 @@
 [submodule "TokenScripts/tokenization"]
 	path = TokenScripts/tokenization
 	url = https://github.com/JamesDeVore/tokenization
+[submodule "AutoVisionBlocker"]
+	path = AutoVisionBlocker
+	url = https://github.com/JamesDeVore/AutoVisionBlocker
+	branch = master
