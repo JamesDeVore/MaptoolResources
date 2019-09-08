@@ -7,3 +7,6 @@ Macros are used to automate actions that a player performs during a game. Inside
 
 ## Tokens
 Tokens are used for a variety of purposes inside Maptool, for NPCs, Player Icons, Scenery, etc. 
+
+## Submodules
+If you want the latest version: ```git submodule foreach git pull origin master``` they aren't nested so that recursive submodule pulling won't be necessary....yet :)
