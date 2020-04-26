@@ -5,7 +5,7 @@ all_weapons = pd.read_csv("./csvData/weapons.csv")
 
 print(all_weapons.head())
 
-generic_dex = '''[h:Name="%s"]
+generic_Str_half = '''[h:Name="%s"]
 [h:type="%s damage"]
 [h:dice=%s]
 [h:ndice=%s]
@@ -15,7 +15,7 @@ generic_dex = '''[h:Name="%s"]
 [h:crit_mult=%s]
 [h:damage_dice=roll(ndice,dice)]
 [h:crit_dice=roll(ndice,dice)]
-[h:attack_stat=DexMod]
+[h:attack_stat=floor(StrMod * 1.5)]
 [h:roll=1d20]
 
 [h:crit_damage=reroll(crit_mult-1, dice+damage_mod, 1+damage_mod)]
@@ -143,7 +143,7 @@ def makeCommand(pandasRow):
   types = pandasRow.Special
   template_string = generic_str
   dmg_type = damage_dict[pandasRow.Type2[0]]
-  if(pandasRow.Damage_Mod == "Dex"):
+  if(pandasRow.Damage_Mod == "Strength_half"):
     template_string = generic_dex
   elif(pandasRow.Damage_Mod == "None"):
     template_string = generic_zero
@@ -160,7 +160,7 @@ def makeCommand(pandasRow):
   #   commandString+= ('&lt;br&gt;[s:"Special Qualities: %s"] ' % extra)
 
   this_macro = Macro(label=label_name, group="Attacks", command=commandString, tooltip=tool_tip)
-  this_macro.make_file("./Weapons/output/" + file_name + ".mtmacro")
+  this_macro.make_file("../../Macros/Weapons/" + file_name + ".mtmacro")
 
 
 
