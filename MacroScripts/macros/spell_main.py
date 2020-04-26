@@ -1,9 +1,9 @@
-pytimport pandas as pd
+import pandas as pd
 import numpy as np
 from main import Macro
 
 # all_spells = pd.read_csv("./spells.csv")
-all_spells = pd.read_csv("./spells2.csv")
+all_spells = pd.read_csv("./csvData/spells2.csv")
 
 # print(all_spells.head(10))
 
@@ -118,18 +118,18 @@ def make_macro(tableRow):
   # print(name)
   file_name = name.replace(" ", "_").lower()
 
-  # print(spell_level,duration,is_save,damaging_spell,attack_spell,atk_type,atk_type,save_type,dice,ndice,dmg_bonus,link,name,desc)
 
   command_string = (spell_template % (spell_level,is_save,damaging_spell,attack_spell,atk_type,"Touch",save_type,dice,ndice,dmg_bonus,link,name,duration))
   print(name)
   this_macro = Macro(label=name, group="Spells", command=command_string, tooltip=desc)
-  this_macro.make_file("./spells/other/" + file_name + ".mtmacro")
+  this_macro.make_file("../../Macros/Spells/" + file_name + ".mtmacro")
 
  
 # test = damaging_spells.iloc[10]
 # make_macro(test)
     
-# for index,row in damaging_spells.iterrows():
-#   make_macro(row)
+for index,row in damaging_spells.iterrows():
+  # file_path = "../../Macros/Spells/"
+  make_macro(row)
 for index,row in non_damaging_spells.iterrows():
   make_macro(row)
