@@ -144,7 +144,7 @@ def makeCommand(pandasRow):
   template_string = generic_str
   dmg_type = damage_dict[pandasRow.Type2[0]]
   if(pandasRow.Damage_Mod == "Strength_half"):
-    template_string = generic_dex
+    template_string = generic_Str_half
   elif(pandasRow.Damage_Mod == "None"):
     template_string = generic_zero
 
