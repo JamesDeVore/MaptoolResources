@@ -1,4 +1,4 @@
-import pandas as pd
+pytimport pandas as pd
 import numpy as np
 from main import Macro
 
