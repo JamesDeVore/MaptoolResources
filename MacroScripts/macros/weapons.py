@@ -5,7 +5,7 @@ all_weapons = pd.read_csv("./csvData/weapons.csv")
 
 print(all_weapons.head())
 
-generic_ranged = '''[h:Name="%s"]
+generic_dex = '''[h:Name="%s"]
 [h:type="%s damage"]
 [h:dice=%s]
 [h:ndice=%s]
@@ -15,7 +15,7 @@ generic_ranged = '''[h:Name="%s"]
 [h:crit_mult=%s]
 [h:damage_dice=roll(ndice,dice)]
 [h:crit_dice=roll(ndice,dice)]
-[h:attack_stat=StrMod]
+[h:attack_stat=DexMod]
 [h:roll=1d20]
 
 [h:crit_damage=reroll(crit_mult-1, dice+damage_mod, 1+damage_mod)]
@@ -29,7 +29,31 @@ Crit chance! [1d20+attack_stat+BAB-SizeMod+attack_bonus] to confirm&lt;br&gt;
 [crit_damage] extra damage
 };{}]'''
 
-generic_melee = '''[h:Name="%s"]
+generic_zero = '''[h:Name="%s"]
+[h:type="%s damage"]
+[h:dice=%s]
+[h:ndice=%s]
+[h:attack_bonus=0]
+[h:crit_low=%s]
+[h:damage_mod=0]
+[h:crit_mult=%s]
+[h:damage_dice=roll(ndice,dice)]
+[h:crit_dice=roll(ndice,dice)]
+[h:attack_stat=DexMod]
+[h:roll=1d20]
+
+[h:crit_damage=reroll(crit_mult-1, dice+damage_mod, 1+damage_mod)]
+
+[Name]: [roll+attack_stat+BAB-SizeMod+attack_bonus]&lt;br&gt;
+[damage_dice+damage_mod] [type]
+
+[if(roll>=crit_low), CODE:{
+&lt;br&gt;
+Crit chance! [1d20+attack_stat+BAB-SizeMod+attack_bonus] to confirm&lt;br&gt;
+[crit_damage] extra damage
+};{}]'''
+
+generic_str = '''[h:Name="%s"]
 [h:type="%s damage"]
 [h:dice=%s]
 [h:ndice=%s]
@@ -117,10 +141,12 @@ def makeCommand(pandasRow):
   criticals = parseCritical(pandasRow.Critical)
   # types = parseTypes(pandasRow.Special)
   types = pandasRow.Special
-  template_string = generic_melee
+  template_string = generic_str
   dmg_type = damage_dict[pandasRow.Type2[0]]
-  if(pandasRow.Type == "Ranged"):
-    template_string = generic_ranged
+  if(pandasRow.Damage_Mod == "Dex"):
+    template_string = generic_dex
+  elif(pandasRow.Damage_Mod == "None"):
+    template_string = generic_zero
 
   
   commandString = ( template_string % (label_name,dmg_type,dmgDiceList[1],dmgDiceList[0],criticals[0],criticals[1]))
