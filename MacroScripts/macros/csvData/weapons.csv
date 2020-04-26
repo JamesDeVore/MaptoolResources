@@ -39,7 +39,7 @@ Sling,NULL,1d4,x2,50 ft.,NULL,B,NULL,PZO1110,Ranged,Strength
 Stingchuck,NULL,1d4,x2,10 ft.,9 lbs.,B,NULL,PPZO9410,Ranged,Dex
 Stonebow,35 gp,1d6,x2,50 ft.,4 lbs.,B,NULL,PPC:RTT,Ranged,None
 Axe_boarding,6 gp,1d6,x3,NULL,3 lbs.,P or S,NULL,PPZO94102,Melee,Strength
-Throwing_axe,8 gp,1d6,x2,10 ft.,2 lbs.,S,NULL,PZO1110,Melee,Strength
+Throwing_axe,8 gp,1d6,x2,10 ft.,2 lbs.,S,NULL,PZO1110,Melee,Dex
 Blade_boot,25 gp,1d4,x2,NULL,2 lbs.,P,NULL,PPZO9410,Melee,Strength
 Cat_o_nine_tails,1 gp,1d4,x2,NULL,1 lb.,S,"disarm,nonlethal",PPZO94102,Melee,Strength
 Claw_blades,305 gp,1d4,x2,NULL,2 lbs.,B or S,NULL,PZO1121,Melee,Strength
