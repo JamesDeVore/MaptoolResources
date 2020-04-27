@@ -120,8 +120,9 @@ def make_macro(tableRow):
 
 
   command_string = (spell_template % (spell_level,is_save,damaging_spell,attack_spell,atk_type,"Touch",save_type,dice,ndice,dmg_bonus,link,name,duration))
+  group_name = ("Level %s Spells" % spell_level)
   print(name)
-  this_macro = Macro(label=name, group="Spells", command=command_string, tooltip=desc)
+  this_macro = Macro(label=name, command=command_string, tooltip=desc, group=group_name)
   this_macro.make_file("../../Macros/Spells/" + file_name + ".mtmacro")
 
  
