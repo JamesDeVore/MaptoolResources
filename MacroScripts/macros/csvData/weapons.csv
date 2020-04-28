@@ -1,232 +1,312 @@
-Name,Cost,Dmg,Critical,Range,Weight1,Type2,Special,Source,Type,Damage_Mod
-Battle_aspergillum,5 gp,1d6,x2,NULL,4 lb.,B,NULL,PZO1115,Melee,Strength
-Brass_knife,2 gp,1d4,19/x2,10 ft.,1 lb.,P or S,fragile,PPC:Pirates,Melee,Strength
-Brass_knuckles,1 gp,1d3,x2,NULL,1 lb.,B,monk,PPZO9410/PZO1115,Melee,Strength
-Cestus,5 gp,1d4,19/x2,NULL,1 lb.,B or P,monk,PZO1115,Melee,Strength
-Dagger,2 gp,1d4,19/x2,10 ft.,1 lb.,P or S,NULL,PZO1110,Melee,Strength
-Dagger_punching,2 gp,1d4,x3,NULL,1 lb.,P,NULL,PZO1110,Melee,Strength
-Spiked_gauntlet,5 gp,1d4,x2,NULL,1 lb.,P,attached,PZO1110,Melee,Strength
-Traveling_kettle,5 gp,1d6,x2,NULL,2 lbs.,B,"monk,",PPC:MAH,Melee,Strength
-Hook_hand,10 gp,1d4,x2,NULL,1 lb.,S,"disarm,attached",PPC:Pirates,Melee,Strength
-Kunai,2 gp,1d4,x2,10 ft.,2 lbs.,B or P,tool,PPC:RTT,Melee,Strength
-Light_mace,5 gp,1d6,x2,NULL,4 lbs.,B,NULL,PZO1110,Melee,Strength
-Sickle,6 gp,1d6,x2,NULL,2 lbs.,S,trip,PZO1110,Melee,Strength
-Spring_blade,70 gp,1d4,x2,10 ft.,1 lb.,P or S,NULL,PZO1134,Melee,Strength
-Wooden_stake,NULL,1d4,x2,10 ft.,1 lb.,P,NULL,PZO1115,Melee,Strength
-Club,NULL,1d6,x2,10 ft.,3 lbs.,B,NULL,PZO1110,Melee,Strength
-Club_mere,2 gp,1d4,x2,NULL,2 lbs.,B or P,fragile,PPZO9410,Melee,Strength
-heavy_mace,12 gp,1d8,x2,NULL,8 lbs.,B,NULL,PZO1110,Melee,Strength
-Morningstar,8 gp,1d8,x2,NULL,6 lbs.,B and P,NULL,PZO1110,Melee,Strength
-Shortspear,1 gp,1d6,x2,20 ft.,3 lbs.,P,NULL,PZO1110,Melee,Strength
-Bayonet,5 gp,1d6,x2,NULL,1 lb.,P,NULL,PZO1115,Melee,Strength_half
-Boarding_pike,8 gp,1d8,x3,NULL,9 lbs.,P,"brace,reach",PPC:Pirates,Melee,Strength_half
-Kumade,5 gp,1d6,x3,NULL,4 lbs.,P,grapple,PZO9468,Melee,Strength_half
-Kumade_collapsible,10 gp,1d6,x3,NULL,4 lbs.,P,grapple,PZO9468,Melee,Strength_half
-Lantern_staff,15 gp,1d6,x2,NULL,9 lbs.,B,NULL,PPZO94102,Melee,Strength_half
-Longspear,5 gp,1d8,x3,NULL,9 lbs.,P,"brace,reach",PZO1110,Melee,Strength_half
-Quarterstaff,NULL,1d6,x2,NULL,4 lbs.,B,"double,monk",PZO1110,Melee,Strength_half
-Spear,2 gp,1d8,x3,20 ft.,6 lbs.,P,brace,PZO1110,Melee,Strength_half
-Spear_boar,5 gp,1d8,x2,NULL,8 lb.,P,brace,PZO1115,Melee,Strength_half
-Weighted_spear,10 gp,1d8,x3/x2,NULL,8 lbs.,B or P,NULL,PZO9468,Melee,Strength_half
-Blowgun,2 gp,1d2,x2,20 ft.,1 lb.,P,NULL,PZO1110,Ranged,None
-Heavy_crossbow,50 gp,1d10,19/x2,120 ft.,8 lbs.,P,NULL,PZO1110,Ranged,None
-Heavy_crossbow_(underwater),100 gp,1d10,19/x2,120 ft.,8 lbs.,P,NULL,PZO1121,Ranged,None
-Light_crossbow,35 gp,1d8,19/x2,80 ft.,4 lbs.,P,NULL,PZO1110,Ranged,None
-light_crossbow_(underwater),70 gp,1d8,19/x2,80 ft.,4 lbs.,P,NULL,PZO1121,Ranged,None
-Dart,5 sp,1d4,x2,20 ft.,1/2 lb.,P,NULL,PZO1110,Ranged,None
-Javelin,1 gp,1d6,x2,30 ft.,2 lbs.,P,NULL,PZO1110,Ranged,Strength
-Sling,NULL,1d4,x2,50 ft.,NULL,B,NULL,PZO1110,Ranged,Strength
-Stingchuck,NULL,1d4,x2,10 ft.,9 lbs.,B,NULL,PPZO9410,Ranged,Strength
-Stonebow,35 gp,1d6,x2,50 ft.,4 lbs.,B,NULL,PPC:RTT,Ranged,None
-Axe_boarding,6 gp,1d6,x3,NULL,3 lbs.,P or S,NULL,PPZO94102,Melee,Strength
-Throwing_axe,8 gp,1d6,x2,10 ft.,2 lbs.,S,NULL,PZO1110,Melee,Strength
-Blade_boot,25 gp,1d4,x2,NULL,2 lbs.,P,NULL,PPZO9410,Melee,Strength
-Cat_o_nine_tails,1 gp,1d4,x2,NULL,1 lb.,S,"disarm,nonlethal",PPZO94102,Melee,Strength
-Claw_blades,305 gp,1d4,x2,NULL,2 lbs.,B or S,NULL,PZO1121,Melee,Strength
-Dagger_dueling,12 gp,1d4,19/x2,10 ft.,1 lb.,P or S,NULL,PPZO94102,Melee,Strength
-Dogslicer,8 gp,1d6,19/x2,NULL,1 lb.,S,fragile,PZO1121,Melee,Strength
-light_hammer,1 gp,1d4,x2,20 ft.,2 lbs.,B,NULL,PZO1110,Melee,Strength
-Gladius,15 gp,1d6,19/x2,NULL,3 lbs.,P or S,performance,PZO1118,Melee,Strength
-Handaxe,6 gp,1d6,x3,NULL,3 lbs.,S,NULL,PZO1110,Melee,Strength
-Katar_tri_bladed,6 gp,1d4,x4,NULL,2 lbs.,P,NULL,PPZO94102,Melee,Strength
-Knife_switchblade,5 gp,1d4,19/x2,10 ft.,1 lb.,P,NULL,PPZO9410,Melee,Strength
-Kobold_tail_attachment_long_lash,15 gp,1d6,x2,NULL,1 lb.,S,reach,PZO1121,Melee,Strength
-Kobold_tail_attachment_(pounder),1 gp,1d8,x2,NULL,4 lbs.,B,NULL,PZO1121,Melee,Strength
-Kobold_tail_attachment_(razored),3 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PZO1121,Melee,Strength
-Kobold_tail_attachment_(spiked),3 gp,1d8,x3,NULL,2 lbs.,P,NULL,PZO1121,Melee,Strength
-Kobold_tail_attachment_(sweeper),7 gp,1d6,x2,NULL,3 lbs.,B,trip,PZO1121,Melee,Strength
-Kukri,8 gp,1d4,18/x2,NULL,2 lbs.,S,NULL,PZO1110,Melee,Strength
-Machete,10 gp,1d6,19/x2,NULL,2 lbs.,S,NULL,PZO9468,Melee,Strength
-Light_pick,4 gp,1d4,x4,NULL,3 lbs.,P,NULL,PZO1110,Melee,Strength
-Ratfolk_tailblade,11 gp,1d3,x2,NULL,1/2 lb.,S,NULL,PZO1121,Melee,Strength
-Sap,1 gp,1d6,x2,NULL,2 lbs.,B,nonlethal,PZO1110,Melee,Strength
-Sea_knife,8 gp,1d4,19/x2,NULL,1 lb.,S,NULL,PZO1121,Melee,Strength
-Light_shield,3 gp/9 gp,1d3,x2,NULL,special,B,NULL,PZO1110,Melee,Strength
-Spiked_armor,special,1d6,x2,NULL,special,P,NULL,PZO1110,Melee,Strength
-Light_spiked_shiel,13 gp/19 gp,1d4,x2,NULL,special,P,NULL,PZO1110,Melee,Strength
-Starknife,24 gp,1d4,x3,20 ft.,3 lbs.,P,NULL,PZO1110,Melee,Strength
-Sword_short,10 gp,1d6,19/x2,NULL,2 lbs.,P,NULL,PZO1110,Melee,Strength
-War_razor,8 gp,1d4,19/x2,NULL,1 lb.,S,NULL,PZO9226-Revised,Melee,Strength
-Ankus,8 gp,1d8,x2,NULL,5 lbs.,P,"disarm,trip",PZO9468,Melee,Strength
-Battleaxe,10 gp,1d8,x3,NULL,6 lbs.,S,NULL,PZO1110,Melee,Strength
-Combat_scabbard,1 gp,1d6,x2,NULL,1 lb.,B,improvised,PPZO9410,Melee,Strength
-Cutlass,15 gp,1d6,18/x2,NULL,4 lbs.,S,NULL,PPZO94102,Melee,Strength
-Light_flail,8 gp,1d8,x2,NULL,5 lbs.,B,"disarm,trip",PZO1110,Melee,Strength
-Gandasa,15 gp,2d4,x3,NULL,4 lbs.,S,NULL,PZO9468,Melee,Strength
-Klar,12 gp,1d6,x2,NULL,6 lbs.,S,NULL,PZO9226-Revised,Melee,Strength
-Longsword,15 gp,1d8,19/x2,NULL,4 lbs.,S,NULL,PZO1110,Melee,Strength
-Manople,17 gp,1d8,x2,NULL,4 lbs.,P or S,"blocking,disarm",PZO9468,Melee,Strength
-Heavy_pick,8 gp,1d6,x4,NULL,6 lbs.,P,NULL,PZO1110,Melee,Strength
-Rapier,20 gp,1d6,18/x2,NULL,2 lbs.,P,finesse,PZO1110,Melee,Strength
-Scabbard_combat_(sharpened),10 gp,1d6,x2,NULL,1 lb.,S,NULL,PPZO9410,Melee,Strength
-Scimitar,15 gp,1d6,18/x2,NULL,4 lbs.,S,NULL,PZO1110,Melee,Strength
-Scizore,20 gp,1d10,x2,NULL,3 lbs.,P,NULL,PZO1118,Melee,Strength
-Heavy_Shield,special,1d4,x2,NULL,special,B,NULL,PZO1110,Melee,Strength
-Heavy_spiked_shield,17 gp/30 gp,1d6,x2,NULL,special,P,NULL,PZO1110,Melee,Strength
-Sword_cane,45 gp,1d6,x2,NULL,4 lbs.,P,NULL,PZO1115,Melee,Strength
-Terbutje,5 gp,1d8,19/x2,NULL,2 lbs.,S,fragile,PPZO9410,Melee,Strength
-Terbutje_steel,20 gp,1d8,19/x2,NULL,4 lbs.,S,NULL,PPZO9410,Melee,Strength
-Trident,15 gp,1d8,x2,10 ft.,4 lbs.,P,brace,PZO1110,Melee,Strength
-Warhammer,12 gp,1d8,x3,NULL,5 lbs.,B,NULL,PZO1110,Melee,Strength
-Bardiche,13 gp,1d10,19/x2,NULL,14 lbs.,S,"brace,reach",PZO1115,Melee,Strength_half
-Bec_de_corbin,15 gp,1d10,x3,NULL,12 lbs.,B or P,"brace,reach",PZO1115,Melee,Strength_half
-Bill,11 gp,1d8,x3,NULL,11 lbs.,S,"brace,disarm,reach",PZO1115,Melee,Strength_half
-Earth_breaker,40 gp,2d6,x3,NULL,14 lbs.,B,NULL,PZO9226-Revised,Melee,Strength_half
-Falchion,75 gp,2d4,18/x2,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength_half
-Heavy_flail,15 gp,1d10,19/x2,NULL,10 lbs.,B,"disarm,trip",PZO1110,Melee,Strength_half
-Glaive,8 gp,1d10,x3,NULL,10 lbs.,S,reach,PZO1110,Melee,Strength_half
-Glaive_guisarme,12 gp,1d10,x3,NULL,10 lbs.,S,"brace,reach",PZO1115,Melee,Strength_half
-Greataxe,20 gp,1d12,x3,NULL,12 lbs.,S,NULL,PZO1110,Melee,Strength_half
-Greatclub,5 gp,1d10,x2,NULL,8 lbs.,B,NULL,PZO1110,Melee,Strength_half
-Greatsword,50 gp,2d6,19/x2,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength_half
-Guisarme,9 gp,2d4,x3,NULL,12 lbs.,S,"reach,trip",PZO1110,Melee,Strength_half
-Halberd,10 gp,1d10,x3,NULL,12 lbs.,P or S,"brace,trip",PZO1110,Melee,Strength_half
-Hammer_lucerne,15 gp,1d12,x2,NULL,12 lbs.,B or P,"brace,reach",PZO1115,Melee,Strength_half
-Horsechopper,10 gp,1d10,x3,NULL,12 lbs.,P or S,"reach,trip",PZO1121,Melee,Strength_half
-Lance,10 gp,1d8,x3,NULL,10 lbs.,P,reach,PZO1110,Melee,Strength_half
-Ogre_hook,24 gp,1d10,x3,NULL,10 lbs.,P,trip,PZO9226-Revised,Melee,Strength_half
-Pickaxe,14 gp,1d8,x4,NULL,12 lbs.,P,NULL,PAP14,Melee,Strength_half
-Planson,10 gp,1d10,x2,NULL,10 lbs.,B or P,brace,PZO9468,Melee,Strength_half
-Ranseur,10 gp,2d4,x3,NULL,12 lbs.,P,"disarm,reach",PZO1110,Melee,Strength_half
-Scythe,18 gp,2d4,x4,NULL,10 lbs.,P or S,trip,PZO1110,Melee,Strength_half
-Spear_syringe,100 gp,1d8,x3,20 ft.,6 lbs.,P,"brace,",PPZO9410,Melee,Strength_half
-Ammentum,NULL,1d6,x2,50 ft.,1 lb.,P,performance,PZO1118,Ranged,Strength
-Chakram,1 gp,1d8,x2,30 ft.,1 lb.,S,NULL,PZO1115,Ranged,Strength
-Dart_jolting,100 gp,1d4,x2,20 ft.,1/2 lb.,P,NULL,PZO1121,Ranged,Strength
-Hunga_munga,4 gp,1d6,x2,15 ft.,3 lbs.,P,NULL,PPZO9410,Ranged,Strength
-Hurlbat,8 gp,1d6,x3,10 ft.,2 lbs.,P and S,NULL,PPC:RTT,Ranged,Strength
-Longbow,75 gp,1d8,x3,100 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+0),100 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+1),200 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+2),300 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+3),400 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+4),500 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Longbow_composite_(+5),600 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None
-Pilum,5 gp,1d8,x2,20 ft.,4 lbs.,P,NULL,PZO1115,Ranged,Strength
-Shortbow,30 gp,1d6,x3,60 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None
-Shortbow_composite,75 gp,1d6,x3,70 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None
-Spear_sling,50 gp,1d8,x3,NULL,2 lbs.,P,NULL,PPC:RTT,Ranged,Strength
-Throwing_arrow_cord,NULL,1d4,x2,60 ft.,NULL,P,NULL,PPC:RTT,Ranged,Strength
-Aklys,5 gp,1d6,x2,20 ft.,2 lbs.,B,"performance,trip",PZO1118,Melee,Strength
-Light_Dwarven_Gauntlet_Axe,16 gp,1d6,x3,NULL,5 lbs.,S,"blocking,disarm",PPC:HftF,Melee,Strength
-Axe_knuckle,9 gp,1d6,x3,NULL,2 lbs.,S,"monk,performance",PZO1118,Melee,Strength
-Barbazu_beard,25 gp,1d4,x2,NULL,5 lbs,S,NULL,PPC:Devils,Melee,Strength
-Battle_poi,5 gp,1d4 ,x2,NULL,2 lbs.,F,NULL,PPZO9410,Melee,Strength
-Dagger_swordbreaker,10 gp,1d4,x2,NULL,3 lbs.,S,"disarm,sunder",PZO1115,Melee,Strength
-Flying_Talon,15 gp,1d4,x2,10 ft.,5 lbs.,P,"disarm,trip",PPZO94102,Melee,Strength
-Gnome_pincher,10 gp,1d6,x2,NULL,2 lbs.,B,disarm,PZO9468,Melee,Strength
-Halfling_rope_shot,1 gp,1d6,x2,NULL,1 lb.,B,disarm,PZO9468,Melee,Strength
-Helmet_dwarven_boulder,20 gp,1d4,x2,NULL,10 lbs.,B,NULL,PZO1121,Melee,Strength
-Kama,2 gp,1d6,x2,NULL,2 lbs.,S,"monk,trip",PZO1110,Melee,Strength
-Knife_butterfly,5 gp,1d4,19/x2,NULL,1 lb.,P or S,NULL,PPZO9410,Melee,Strength
-Knife_deer_horn,10 gp,1d4,x3,20 ft.,3 lbs.,P,"blocking,monk",PZO9468,Melee,Strength
-Maulaxe_dwarven,25 gp,1d6,x3,10 ft.,5 lbs.,B or S,NULL,PPZO9410,Melee,Strength
-Nunchaku,2 gp,1d6,x2,NULL,2 lbs.,B,"disarm,monk",PZO1110,Melee,Strength
-Quadrens,8 gp,1d6,19/x2,NULL,2 lbs.,P,performance,PZO1118,Melee,Strength
-Razor_drow,25 gp,1d4,18/x2,NULL,2 lbs.,S,NULL,PPZO94102,Melee,Strength
-Rope_gauntlet,2 sp,1d4,x2,NULL,2 lbs.,B (or S),NULL,PPZO9410,Melee,Strength
-Sabre_sawtoothAA1,35 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PPZO9410,Melee,Strength
-Sai,1 gp,1d4,x2,NULL,1 lb.,B,"disarm,monk",PZO1110,Melee,Strength
-Sanpkhang,60 gp,1d4,19/x2,NULL,1 lb.,P or S,"monk,",PPZO94102,Melee,Strength
-Siangham,3 gp,1d6,x2,NULL,1 lb.,P,monk,PZO1110,Melee,Strength
-Sica,10 gp,1d6,x2,NULL,2 lbs.,S,performance,PZO1118,Melee,Strength
-Thorn_bracer,30 gp,1d6,x2,NULL,3 lbs.,P,NULL,PCS,Melee,Strength
-War_shield_dwarven,50 gp,1d6,x2,NULL,8 lbs.,P or S,NULL,PPZO94102,Melee,Strength
-Waveblade,5 gp,1d6,18/x2,NULL,2 lbs.,P or S,"monk,",PPZO94102,Melee,Strength
-Whip_scorpion,5 gp,1d4,x2,NULL,3 lbs.,S,"disarm,performance,reach,trip",PZO1118,Melee,Strength
-Heavy_Dwarven_Gauntlet_Axe,21 gp,1d8,x3,NULL,5 lbs.,S,"blocking,disarm",PPC:HftF,Melee,Strength
-Axe_hooked,20 gp,1d8,x3,NULL,7 lbs.,S,"disarm,performance,trip",PZO1118,Melee,Strength
-Broken_back_seax,40 gp,1d10,19/x2,NULL,4 lbs.,P & S,NULL,PPC:MAH,Melee,Strength
-Estoc,50 gp,2d4,18/x2,NULL,4 lbs.,P,NULL,PZO9468,Melee,Strength
-Falcata,18 gp,1d8,19/x3,NULL,4 lbs.,S,NULL,PZO1115,Melee,Strength
-Flickmace,20 gp,1d8,x2,NULL,10 lb,B,"reach,trip",PC:GoG,Melee,Strength
-Flindbar,9 gp,1d8,x2,NULL,6 lbs.,B and P,"disarm,trip",MC,Melee,Strength
-Khopesh,20 gp,1d8,19/x2,NULL,8 lbs.,S,trip,PZO1115,Melee,Strength
-Knobkerrie,5 gp,1d6,x2,20 ft.,4 lbs.,B,NULL,PPC:RTT,Melee,Strength
-Ram_Hammer_Dwarven,25 gp,1d8,x3,10 ft.,5 lbs.,B,NULL,PPC:HftF,Melee,Strength
-Rapier_spiral,80 gp,1d6,18/x2,NULL,3 lbs.,P,"blocking,disarm",PPZO94102,Melee,Strength
-Rhoka,5 gp,1d8,18/x2,NULL,6 lbs.,S,NULL,PPZO9410,Melee,Strength
-Sabre_sawtoothAG,35 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PZO9226-Revised,Melee,Strength
-Shotel,30 gp,1d8,x3,NULL,3 lbs.,P,performance,PZO1118,Melee,Strength
-Sickle_sword,20 gp,1d8,19/x2,NULL,4 lbs.,S,distracting,PPZO94102,Melee,Strength
-Split_blade_sword,200 gp,2d6,x2,NULL,8 lbs.,S,"disarm,trip",PPC:MAH,Melee,Strength
-Sword_dueling,20 gp,1d8,19/x2,NULL,3 lbs,S,NULL,PZO9226-Revised,Melee,Strength
-Sword_bastard,35 gp,1d10,19/x2,NULL,6 lbs.,S,NULL,PZO1110,Melee,Strength
-Tongi,18 gp,1d6,19/x3,NULL,4 lbs.,P,NULL,PZO9468,Melee,Strength
-Waraxe_dwarven,30 gp,1d10,x3,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength
-Waraxe_dwarven_double,60 gp,1d10,x3,NULL,12 lbs.,S,NULL,PZO1121,Melee,Strength
-Whip,1 gp,1d3,x2,NULL,2 lbs.,S,"disarm,nonlethal,reach,trip",PZO1110,Melee,Strength
-Axe_Orc_Double,60 gp,1d8,x3,NULL,15 lbs.,S,double,PZO1110,Melee,Strength_half
-Axe_Butchering,65 gp,3d6,x3,NULL,25 lbs.,S,NULL,PPZO94102,Melee,Strength_half
-Battle_Ladder_gnome,20 gp,1d6,x2,NULL,8 lbs.,B,trip,PPZO94102,Melee,Strength_half
-Boarding_gaff,8 gp,1d6,x2,NULL,8 lbs.,S,NULL,PPZO94102,Melee,Strength_half
-Chain_hammer,35 gp,1d6,x2,20 ft.,8 lbs.,B,NULL,PPZO94102,Melee,Strength_half
-Chain_spiked,25 gp,2d4,x2,NULL,10 lbs.,P,"disarm,trip",PZO1110,Melee,Strength_half
-Crook,1 gp,1d6,x2,NULL,5 lbs.,B,"reach,trip",PZO9468,Melee,Strength_half
-Curve_blade_elven,80 gp,1d10,18/x2,NULL,7 lbs.,S,NULL,PZO1110,Melee,Strength_half
-Dorn_Dergar_dwarven,50 gp,1d10,x2,NULL,15 lbs.,B,"reach,",PPZO94102,Melee,Strength_half
-Elven_branched_spear,20 gp,1d8,x3,NULL,10 lbs.,P,"brace,reach",PZO9468,Melee,Strength_half
-Fauchard,14 gp,1d10,18/x2,NULL,10 lbs.,S,"reach,trip",PPZO94102,Melee,Strength_half
-Flail_dire,90 gp,1d8,x2,NULL,10 lbs.,B,NULL,PZO1110,Melee,Strength_half
-Flailpole,15 gp,1d8,x2,NULL,10 lbs.,B,"disarm,reach,trip",PC:GoG,Melee,Strength_half
-Flambard,50 gp,1d10,19/x2,NULL,6 lbs.,S,sunder,PPZO9410,Melee,Strength_half
-Flying_blade,40 gp,1d12,x3,NULL,12 lbs.,S,"performance,reach",PZO1118,Melee,Strength_half
-Garrote,3 gp,1d6,x2,NULL,1 lb.,S,"grapple,",PPZO9410,Melee,Strength_half
-Giant_Sticker_Dwarven,25 gp,2d6,x3,NULL,12 lbs.,P or S,"brace,reach",PPC:HftF,Melee,Strength_half
-Hammer_Gnome_hooked,20 gp,1d8,x3,NULL,6 lbs.,B or P,"double,trip",PZO1110,Melee,Strength_half
-Harpoon,5 gp,1d8,x3,10 ft.,16 lbs.,P,grapple,PPC:Pirates,Melee,Strength_half
-Longaxe_dwarven,50 gp,1d12,x3,NULL,14 lbs.,S,reach,PZO1121,Melee,Strength_half
-Longhammer_dwarven,70 gp,2d6,x3,NULL,20 lbs.,B,reach,PZO1121,Melee,Strength_half
-Mancatcher,15 gp,1d2,x2,NULL,10 lbs.,P,"grapple,reach,",PZO1115,Melee,Strength_half
-Orc-skull-ram,15 gp,1d10,x3,NULL,20 lbs.,B,reach,PZO9468,Melee,Strength_half
-Piston_maul_gnome,70 gp,1d10,x2,NULL,15 lbs.,B,NULL,PPZO94102,Melee,Strength_half
-Ripsaw_glaive_gnome,30 gp,1d10,x3,NULL,12 lbs.,S,reach,PPZO94102,Melee,Strength_half
-Scarf_bladed,12 gp,1d6,x2,NULL,2 lbs.,S,"disarm,trip",PZO9226-Revised,Melee,Strength_half
-Spear_totem,25 gp,1d10,x3,10 ft.,6 lbs.,P or S,NULL,PZO1110,Melee,Strength_half
-Sphinx_Hammer_Dwarven,45 gp,1d10,x3,20 ft.,8 lbs.,B,NULL,PPC:HftF,Melee,Strength_half
-Switchscythe,18 gp,2d4,x4,NULL,10 lbs.,P or S,trip,PPZO94102,Melee,Strength_half
-Sword_two_bladed,100 gp,1d8,19/x2,NULL,10 lbs.,S,double,PZO1110,Melee,Strength_half
-Urgrosh_dwarven,50 gp,1d8,x3,NULL,12 lbs.,P or S,"brace,double",PZO1110,Melee,Strength_half
-Bola,5 gp,1d4,x2,10 ft.,2 lbs.,B,"nonlethal,trip",PZO1110,Ranged,Strength
-Bola_Brutal,15 gp,1d4,x2,10 ft.,2 lbs.,B and P,trip,PZO9226-Revised,Ranged,Strength
-Boomerang,3 gp,1d6,x2,30 ft.,3 lbs.,B,NULL,PZO1115,Ranged,Strength
-Bow_thorn,50 gp,1d6,x3,40 ft.,2 lbs.,P,NULL,PPZO9410,Ranged,None
-Crossbow_crank_(heavy),400 gp,1d10,19/x2,120 ft.,12 lbs.,P,NULL,PPC:RTT,Ranged,None
-Crossbow_crank_(light),250 gp,1d8,19/x2,80 ft.,6 lbs.,P,NULL,PPC:RTT,Ranged,None
-Crossbow_double,300 gp,1d8,19/x2,80 ft.,18 lbs.,P,NULL,PZO1115,Ranged,None
-Crossbow_hand,100 gp,1d4,19/x2,30 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None
-Heavy_repeating_crossbow,400 gp,1d10,19/x2,120 ft.,12 lbs.,P,NULL,PZO1110,Ranged,None
-light_repeating_crossbow,250 gp,1d8,19/x2,80 ft.,6 lbs.,P,NULL,PZO1110,Ranged,None
-Grappling_hook,6 gp,1d6,x2,10 ft.,14 lbs.,P,grapple,PPC:Pirates,Ranged,Strength
-Hornbow_orc,130 gp,2d6,x3,80 ft.,7 lbs.,P,NULL,PPZO94102,Ranged,None
-Javelin_stormshaft,35 gp,1d6,x2,30 ft.,3 lbs.,P,NULL,PPZO94102,Ranged,Strength
-Heavy_Dwarven_Pelletbow,75 gp,1d6,19/x3,60 ft.,8 lbs.,B,NULL,PPC:HftF,Ranged,None
-Light_Dwarven_Pelletbow,50 gp,1d4,19/x3,40 ft.,4 lbs.,B,NULL,PPC:HftF,Ranged,None
-Shield_throwing,50gp,1d6,x2,20 ft.,NULL,B,"performance,trip",PZO1118,Ranged,Strength
-Shrillshaft_javelin,35 gp,1d6,x2,30 ft.,3 lbs.,P,NULL,PPC:Goblins,Ranged,Strength
-Shuriken_(5),1 gp,1d2,x2,10 ft.,1/2 lbs.,P,monk,CRB,Ranged,Strength
-Sling_double,10 gp,1d4,x2,50 ft.,1 lb.,B,"double,",PPC:Halflings,Ranged,Strength
-Sling_glove,5 gp,1d4,x2,50 ft.,2 lbs.,B,NULL,PPZO9410,Ranged,Strength
-Sling_staff_halfling,20 gp,1d8,x3,80 ft.,3 lbs.,B,NULL,PZO1110,Ranged,Strength
-Sling_stitched,NULL,1d6,x2,NULL,1 lb.,B,"disarm,trip",PPC:Halflings,Ranged,Strength
-Heavy_Wrist_Launcher,250 gp,1d4,19/x2,30 ft.,2 lbs.,P,NULL,PZO1134,Ranged,Strength
+Name,Chat,Cost,Dmg,Critical,Range,Weight1,Type2,Special,Source,Type,Damage_Mod,,
+Battle_aspergillum,Battle Aspergillum,5 gp,1d6,x2,NULL,4 lb.,B,NULL,PZO1115,Melee,Strength,,Battle Aspergillum
+Brass_knife,Brass Knife,2 gp,1d4,19/x2,10 ft.,1 lb.,P or S,fragile,PPC:Pirates,Melee,Strength,,Brass Knife
+Brass_knuckles,Brass Knuckles,1 gp,1d3,x2,NULL,1 lb.,B,monk,PPZO9410/PZO1115,Melee,Strength,,Brass Knuckles
+Cestus,Cestus,5 gp,1d4,19/x2,NULL,1 lb.,B or P,monk,PZO1115,Melee,Strength,,Cestus
+Dagger,Dagger,2 gp,1d4,19/x2,10 ft.,1 lb.,P or S,NULL,PZO1110,Melee,Strength,,Dagger
+Dagger_punching,Dagger Punching,2 gp,1d4,x3,NULL,1 lb.,P,NULL,PZO1110,Melee,Strength,,Dagger Punching
+Spiked_gauntlet,Spiked Gauntlet,5 gp,1d4,x2,NULL,1 lb.,P,attached,PZO1110,Melee,Strength,,Spiked Gauntlet
+Traveling_kettle,Traveling Kettle,5 gp,1d6,x2,NULL,2 lbs.,B,"monk,",PPC:MAH,Melee,Strength,,Traveling Kettle
+Hook_hand,Hook Hand,10 gp,1d4,x2,NULL,1 lb.,S,"disarm,attached",PPC:Pirates,Melee,Strength,,Hook Hand
+Kunai,Kunai,2 gp,1d4,x2,10 ft.,2 lbs.,B or P,tool,PPC:RTT,Melee,Strength,,Kunai
+Light_mace,Light Mace,5 gp,1d6,x2,NULL,4 lbs.,B,NULL,PZO1110,Melee,Strength,,Light Mace
+Sickle,Sickle,6 gp,1d6,x2,NULL,2 lbs.,S,trip,PZO1110,Melee,Strength,,Sickle
+Spring_blade,Spring Blade,70 gp,1d4,x2,10 ft.,1 lb.,P or S,NULL,PZO1134,Melee,Strength,,Spring Blade
+Wooden_stake,Wooden Stake,NULL,1d4,x2,10 ft.,1 lb.,P,NULL,PZO1115,Melee,Strength,,Wooden Stake
+Club,Club,NULL,1d6,x2,10 ft.,3 lbs.,B,NULL,PZO1110,Melee,Strength,,Club
+Club_mere,Club Mere,2 gp,1d4,x2,NULL,2 lbs.,B or P,fragile,PPZO9410,Melee,Strength,,Club Mere
+heavy_mace,Heavy Mace,12 gp,1d8,x2,NULL,8 lbs.,B,NULL,PZO1110,Melee,Strength,,Heavy Mace
+Morningstar,Morningstar,8 gp,1d8,x2,NULL,6 lbs.,B and P,NULL,PZO1110,Melee,Strength,,Morningstar
+Shortspear,Shortspear,1 gp,1d6,x2,20 ft.,3 lbs.,P,NULL,PZO1110,Melee,Strength,,Shortspear
+Bayonet,Bayonet,5 gp,1d6,x2,NULL,1 lb.,P,NULL,PZO1115,Melee,Strength_half,,Bayonet
+Boarding_pike,Boarding Pike,8 gp,1d8,x3,NULL,9 lbs.,P,"brace,reach",PPC:Pirates,Melee,Strength_half,,Boarding Pike
+Kumade,Kumade,5 gp,1d6,x3,NULL,4 lbs.,P,grapple,PZO9468,Melee,Strength_half,,Kumade
+Kumade_collapsible,Kumade Collapsible,10 gp,1d6,x3,NULL,4 lbs.,P,grapple,PZO9468,Melee,Strength_half,,Kumade Collapsible
+Lantern_staff,Lantern Staff,15 gp,1d6,x2,NULL,9 lbs.,B,NULL,PPZO94102,Melee,Strength_half,,Lantern Staff
+Longspear,Longspear,5 gp,1d8,x3,NULL,9 lbs.,P,"brace,reach",PZO1110,Melee,Strength_half,,Longspear
+Quarterstaff,Quarterstaff,NULL,1d6,x2,NULL,4 lbs.,B,"double,monk",PZO1110,Melee,Strength_half,,Quarterstaff
+Spear,Spear,2 gp,1d8,x3,20 ft.,6 lbs.,P,brace,PZO1110,Melee,Strength_half,,Spear
+Spear_boar,Spear Boar,5 gp,1d8,x2,NULL,8 lb.,P,brace,PZO1115,Melee,Strength_half,,Spear Boar
+Weighted_spear,Weighted Spear,10 gp,1d8,x3/x2,NULL,8 lbs.,B or P,NULL,PZO9468,Melee,Strength_half,,Weighted Spear
+Blowgun,Blowgun,2 gp,1d2,x2,20 ft.,1 lb.,P,NULL,PZO1110,Ranged,None,,Blowgun
+Heavy_crossbow,Heavy Crossbow,50 gp,1d10,19/x2,120 ft.,8 lbs.,P,NULL,PZO1110,Ranged,None,,Heavy Crossbow
+Heavy_crossbow_(underwater),Heavy Crossbow (Underwater),100 gp,1d10,19/x2,120 ft.,8 lbs.,P,NULL,PZO1121,Ranged,None,,Heavy Crossbow (Underwater)
+Light_crossbow,Light Crossbow,35 gp,1d8,19/x2,80 ft.,4 lbs.,P,NULL,PZO1110,Ranged,None,,Light Crossbow
+light_crossbow_(underwater),Light Crossbow (Underwater),70 gp,1d8,19/x2,80 ft.,4 lbs.,P,NULL,PZO1121,Ranged,None,,Light Crossbow (Underwater)
+Dart,Dart,5 sp,1d4,x2,20 ft.,1/2 lb.,P,NULL,PZO1110,Ranged,None,,Dart
+Javelin,Javelin,1 gp,1d6,x2,30 ft.,2 lbs.,P,NULL,PZO1110,Ranged,Strength,,Javelin
+Sling,Sling,NULL,1d4,x2,50 ft.,NULL,B,NULL,PZO1110,Ranged,Strength,,Sling
+Stingchuck,Stingchuck,NULL,1d4,x2,10 ft.,9 lbs.,B,NULL,PPZO9410,Ranged,Strength,,Stingchuck
+Stonebow,Stonebow,35 gp,1d6,x2,50 ft.,4 lbs.,B,NULL,PPC:RTT,Ranged,None,,Stonebow
+Axe_boarding,Axe Boarding,6 gp,1d6,x3,NULL,3 lbs.,P or S,NULL,PPZO94102,Melee,Strength,,Axe Boarding
+Throwing_axe,Throwing Axe,8 gp,1d6,x2,10 ft.,2 lbs.,S,NULL,PZO1110,Melee,Strength,,Throwing Axe
+Blade_boot,Blade Boot,25 gp,1d4,x2,NULL,2 lbs.,P,NULL,PPZO9410,Melee,Strength,,Blade Boot
+Cat_o_nine_tails,Cat O Nine Tails,1 gp,1d4,x2,NULL,1 lb.,S,"disarm,nonlethal",PPZO94102,Melee,Strength,,Cat O Nine Tails
+Claw_blades,Claw Blades,305 gp,1d4,x2,NULL,2 lbs.,B or S,NULL,PZO1121,Melee,Strength,,Claw Blades
+Dagger_dueling,Dagger Dueling,12 gp,1d4,19/x2,10 ft.,1 lb.,P or S,NULL,PPZO94102,Melee,Strength,,Dagger Dueling
+Dogslicer,Dogslicer,8 gp,1d6,19/x2,NULL,1 lb.,S,fragile,PZO1121,Melee,Strength,,Dogslicer
+light_hammer,Light Hammer,1 gp,1d4,x2,20 ft.,2 lbs.,B,NULL,PZO1110,Melee,Strength,,Light Hammer
+Gladius,Gladius,15 gp,1d6,19/x2,NULL,3 lbs.,P or S,performance,PZO1118,Melee,Strength,,Gladius
+Handaxe,Handaxe,6 gp,1d6,x3,NULL,3 lbs.,S,NULL,PZO1110,Melee,Strength,,Handaxe
+Katar_tri_bladed,Katar Tri Bladed,6 gp,1d4,x4,NULL,2 lbs.,P,NULL,PPZO94102,Melee,Strength,,Katar Tri Bladed
+Knife_switchblade,Knife Switchblade,5 gp,1d4,19/x2,10 ft.,1 lb.,P,NULL,PPZO9410,Melee,Strength,,Knife Switchblade
+Kobold_tail_attachment_long_lash,Kobold Tail Attachment Long Lash,15 gp,1d6,x2,NULL,1 lb.,S,reach,PZO1121,Melee,Strength,,Kobold Tail Attachment Long Lash
+Kobold_tail_attachment_(pounder),Kobold Tail Attachment (Pounder),1 gp,1d8,x2,NULL,4 lbs.,B,NULL,PZO1121,Melee,Strength,,Kobold Tail Attachment (Pounder)
+Kobold_tail_attachment_(razored),Kobold Tail Attachment (Razored),3 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PZO1121,Melee,Strength,,Kobold Tail Attachment (Razored)
+Kobold_tail_attachment_(spiked),Kobold Tail Attachment (Spiked),3 gp,1d8,x3,NULL,2 lbs.,P,NULL,PZO1121,Melee,Strength,,Kobold Tail Attachment (Spiked)
+Kobold_tail_attachment_(sweeper),Kobold Tail Attachment (Sweeper),7 gp,1d6,x2,NULL,3 lbs.,B,trip,PZO1121,Melee,Strength,,Kobold Tail Attachment (Sweeper)
+Kukri,Kukri,8 gp,1d4,18/x2,NULL,2 lbs.,S,NULL,PZO1110,Melee,Strength,,Kukri
+Machete,Machete,10 gp,1d6,19/x2,NULL,2 lbs.,S,NULL,PZO9468,Melee,Strength,,Machete
+Light_pick,Light Pick,4 gp,1d4,x4,NULL,3 lbs.,P,NULL,PZO1110,Melee,Strength,,Light Pick
+Ratfolk_tailblade,Ratfolk Tailblade,11 gp,1d3,x2,NULL,1/2 lb.,S,NULL,PZO1121,Melee,Strength,,Ratfolk Tailblade
+Sap,Sap,1 gp,1d6,x2,NULL,2 lbs.,B,nonlethal,PZO1110,Melee,Strength,,Sap
+Sea_knife,Sea Knife,8 gp,1d4,19/x2,NULL,1 lb.,S,NULL,PZO1121,Melee,Strength,,Sea Knife
+Light_shield,Light Shield,3 gp/9 gp,1d3,x2,NULL,special,B,NULL,PZO1110,Melee,Strength,,Light Shield
+Spiked_armor,Spiked Armor,special,1d6,x2,NULL,special,P,NULL,PZO1110,Melee,Strength,,Spiked Armor
+Light_spiked_shiel,Light Spiked Shiel,13 gp/19 gp,1d4,x2,NULL,special,P,NULL,PZO1110,Melee,Strength,,Light Spiked Shiel
+Starknife,Starknife,24 gp,1d4,x3,20 ft.,3 lbs.,P,NULL,PZO1110,Melee,Strength,,Starknife
+Sword_short,Sword Short,10 gp,1d6,19/x2,NULL,2 lbs.,P,NULL,PZO1110,Melee,Strength,,Sword Short
+War_razor,War Razor,8 gp,1d4,19/x2,NULL,1 lb.,S,NULL,PZO9226-Revised,Melee,Strength,,War Razor
+Ankus,Ankus,8 gp,1d8,x2,NULL,5 lbs.,P,"disarm,trip",PZO9468,Melee,Strength,,Ankus
+Battleaxe,Battleaxe,10 gp,1d8,x3,NULL,6 lbs.,S,NULL,PZO1110,Melee,Strength,,Battleaxe
+Combat_scabbard,Combat Scabbard,1 gp,1d6,x2,NULL,1 lb.,B,improvised,PPZO9410,Melee,Strength,,Combat Scabbard
+Cutlass,Cutlass,15 gp,1d6,18/x2,NULL,4 lbs.,S,NULL,PPZO94102,Melee,Strength,,Cutlass
+Light_flail,Light Flail,8 gp,1d8,x2,NULL,5 lbs.,B,"disarm,trip",PZO1110,Melee,Strength,,Light Flail
+Gandasa,Gandasa,15 gp,2d4,x3,NULL,4 lbs.,S,NULL,PZO9468,Melee,Strength,,Gandasa
+Klar,Klar,12 gp,1d6,x2,NULL,6 lbs.,S,NULL,PZO9226-Revised,Melee,Strength,,Klar
+Longsword,Longsword,15 gp,1d8,19/x2,NULL,4 lbs.,S,NULL,PZO1110,Melee,Strength,,Longsword
+Manople,Manople,17 gp,1d8,x2,NULL,4 lbs.,P or S,"blocking,disarm",PZO9468,Melee,Strength,,Manople
+Heavy_pick,Heavy Pick,8 gp,1d6,x4,NULL,6 lbs.,P,NULL,PZO1110,Melee,Strength,,Heavy Pick
+Rapier,Rapier,20 gp,1d6,18/x2,NULL,2 lbs.,P,finesse,PZO1110,Melee,Strength,,Rapier
+Scabbard_combat_(sharpened),Scabbard Combat (Sharpened),10 gp,1d6,x2,NULL,1 lb.,S,NULL,PPZO9410,Melee,Strength,,Scabbard Combat (Sharpened)
+Scimitar,Scimitar,15 gp,1d6,18/x2,NULL,4 lbs.,S,NULL,PZO1110,Melee,Strength,,Scimitar
+Scizore,Scizore,20 gp,1d10,x2,NULL,3 lbs.,P,NULL,PZO1118,Melee,Strength,,Scizore
+Heavy_Shield,Heavy Shield,special,1d4,x2,NULL,special,B,NULL,PZO1110,Melee,Strength,,Heavy Shield
+Heavy_spiked_shield,Heavy Spiked Shield,17 gp/30 gp,1d6,x2,NULL,special,P,NULL,PZO1110,Melee,Strength,,Heavy Spiked Shield
+Sword_cane,Sword Cane,45 gp,1d6,x2,NULL,4 lbs.,P,NULL,PZO1115,Melee,Strength,,Sword Cane
+Terbutje,Terbutje,5 gp,1d8,19/x2,NULL,2 lbs.,S,fragile,PPZO9410,Melee,Strength,,Terbutje
+Terbutje_steel,Terbutje Steel,20 gp,1d8,19/x2,NULL,4 lbs.,S,NULL,PPZO9410,Melee,Strength,,Terbutje Steel
+Trident,Trident,15 gp,1d8,x2,10 ft.,4 lbs.,P,brace,PZO1110,Melee,Strength,,Trident
+Warhammer,Warhammer,12 gp,1d8,x3,NULL,5 lbs.,B,NULL,PZO1110,Melee,Strength,,Warhammer
+Bardiche,Bardiche,13 gp,1d10,19/x2,NULL,14 lbs.,S,"brace,reach",PZO1115,Melee,Strength_half,,Bardiche
+Bec_de_corbin,Bec De Corbin,15 gp,1d10,x3,NULL,12 lbs.,B or P,"brace,reach",PZO1115,Melee,Strength_half,,Bec De Corbin
+Bill,Bill,11 gp,1d8,x3,NULL,11 lbs.,S,"brace,disarm,reach",PZO1115,Melee,Strength_half,,Bill
+Earth_breaker,Earth Breaker,40 gp,2d6,x3,NULL,14 lbs.,B,NULL,PZO9226-Revised,Melee,Strength_half,,Earth Breaker
+Falchion,Falchion,75 gp,2d4,18/x2,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength_half,,Falchion
+Heavy_flail,Heavy Flail,15 gp,1d10,19/x2,NULL,10 lbs.,B,"disarm,trip",PZO1110,Melee,Strength_half,,Heavy Flail
+Glaive,Glaive,8 gp,1d10,x3,NULL,10 lbs.,S,reach,PZO1110,Melee,Strength_half,,Glaive
+Glaive_guisarme,Glaive Guisarme,12 gp,1d10,x3,NULL,10 lbs.,S,"brace,reach",PZO1115,Melee,Strength_half,,Glaive Guisarme
+Greataxe,Greataxe,20 gp,1d12,x3,NULL,12 lbs.,S,NULL,PZO1110,Melee,Strength_half,,Greataxe
+Greatclub,Greatclub,5 gp,1d10,x2,NULL,8 lbs.,B,NULL,PZO1110,Melee,Strength_half,,Greatclub
+Greatsword,Greatsword,50 gp,2d6,19/x2,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength_half,,Greatsword
+Guisarme,Guisarme,9 gp,2d4,x3,NULL,12 lbs.,S,"reach,trip",PZO1110,Melee,Strength_half,,Guisarme
+Halberd,Halberd,10 gp,1d10,x3,NULL,12 lbs.,P or S,"brace,trip",PZO1110,Melee,Strength_half,,Halberd
+Hammer_lucerne,Hammer Lucerne,15 gp,1d12,x2,NULL,12 lbs.,B or P,"brace,reach",PZO1115,Melee,Strength_half,,Hammer Lucerne
+Horsechopper,Horsechopper,10 gp,1d10,x3,NULL,12 lbs.,P or S,"reach,trip",PZO1121,Melee,Strength_half,,Horsechopper
+Lance,Lance,10 gp,1d8,x3,NULL,10 lbs.,P,reach,PZO1110,Melee,Strength_half,,Lance
+Ogre_hook,Ogre Hook,24 gp,1d10,x3,NULL,10 lbs.,P,trip,PZO9226-Revised,Melee,Strength_half,,Ogre Hook
+Pickaxe,Pickaxe,14 gp,1d8,x4,NULL,12 lbs.,P,NULL,PAP14,Melee,Strength_half,,Pickaxe
+Planson,Planson,10 gp,1d10,x2,NULL,10 lbs.,B or P,brace,PZO9468,Melee,Strength_half,,Planson
+Ranseur,Ranseur,10 gp,2d4,x3,NULL,12 lbs.,P,"disarm,reach",PZO1110,Melee,Strength_half,,Ranseur
+Scythe,Scythe,18 gp,2d4,x4,NULL,10 lbs.,P or S,trip,PZO1110,Melee,Strength_half,,Scythe
+Spear_syringe,Spear Syringe,100 gp,1d8,x3,20 ft.,6 lbs.,P,"brace,",PPZO9410,Melee,Strength_half,,Spear Syringe
+Ammentum,Ammentum,NULL,1d6,x2,50 ft.,1 lb.,P,performance,PZO1118,Ranged,Strength,,Ammentum
+Chakram,Chakram,1 gp,1d8,x2,30 ft.,1 lb.,S,NULL,PZO1115,Ranged,Strength,,Chakram
+Dart_jolting,Dart Jolting,100 gp,1d4,x2,20 ft.,1/2 lb.,P,NULL,PZO1121,Ranged,Strength,,Dart Jolting
+Hunga_munga,Hunga Munga,4 gp,1d6,x2,15 ft.,3 lbs.,P,NULL,PPZO9410,Ranged,Strength,,Hunga Munga
+Hurlbat,Hurlbat,8 gp,1d6,x3,10 ft.,2 lbs.,P and S,NULL,PPC:RTT,Ranged,Strength,,Hurlbat
+Longbow,Longbow,75 gp,1d8,x3,100 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow
+Longbow_composite_(+0),Longbow Composite (+0),100 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+0)
+Longbow_composite_(+1),Longbow Composite (+1),200 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+1)
+Longbow_composite_(+2),Longbow Composite (+2),300 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+2)
+Longbow_composite_(+3),Longbow Composite (+3),400 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+3)
+Longbow_composite_(+4),Longbow Composite (+4),500 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+4)
+Longbow_composite_(+5),Longbow Composite (+5),600 gp,1d8,x3,110 ft.,3 lbs.,P,NULL,PZO1110,Ranged,None,,Longbow Composite (+5)
+Pilum,Pilum,5 gp,1d8,x2,20 ft.,4 lbs.,P,NULL,PZO1115,Ranged,Strength,,Pilum
+Shortbow,Shortbow,30 gp,1d6,x3,60 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None,,Shortbow
+Shortbow_composite,Shortbow Composite,75 gp,1d6,x3,70 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None,,Shortbow Composite
+Spear_sling,Spear Sling,50 gp,1d8,x3,NULL,2 lbs.,P,NULL,PPC:RTT,Ranged,Strength,,Spear Sling
+Throwing_arrow_cord,Throwing Arrow Cord,NULL,1d4,x2,60 ft.,NULL,P,NULL,PPC:RTT,Ranged,Strength,,Throwing Arrow Cord
+Aklys,Aklys,5 gp,1d6,x2,20 ft.,2 lbs.,B,"performance,trip",PZO1118,Melee,Strength,,Aklys
+Light_Dwarven_Gauntlet_Axe,Light Dwarven Gauntlet Axe,16 gp,1d6,x3,NULL,5 lbs.,S,"blocking,disarm",PPC:HftF,Melee,Strength,,Light Dwarven Gauntlet Axe
+Axe_knuckle,Axe Knuckle,9 gp,1d6,x3,NULL,2 lbs.,S,"monk,performance",PZO1118,Melee,Strength,,Axe Knuckle
+Barbazu_beard,Barbazu Beard,25 gp,1d4,x2,NULL,5 lbs,S,NULL,PPC:Devils,Melee,Strength,,Barbazu Beard
+Battle_poi,Battle Poi,5 gp,1d4 ,x2,NULL,2 lbs.,F,NULL,PPZO9410,Melee,Strength,,Battle Poi
+Dagger_swordbreaker,Dagger Swordbreaker,10 gp,1d4,x2,NULL,3 lbs.,S,"disarm,sunder",PZO1115,Melee,Strength,,Dagger Swordbreaker
+Flying_Talon,Flying Talon,15 gp,1d4,x2,10 ft.,5 lbs.,P,"disarm,trip",PPZO94102,Melee,Strength,,Flying Talon
+Gnome_pincher,Gnome Pincher,10 gp,1d6,x2,NULL,2 lbs.,B,disarm,PZO9468,Melee,Strength,,Gnome Pincher
+Halfling_rope_shot,Halfling Rope Shot,1 gp,1d6,x2,NULL,1 lb.,B,disarm,PZO9468,Melee,Strength,,Halfling Rope Shot
+Helmet_dwarven_boulder,Helmet Dwarven Boulder,20 gp,1d4,x2,NULL,10 lbs.,B,NULL,PZO1121,Melee,Strength,,Helmet Dwarven Boulder
+Kama,Kama,2 gp,1d6,x2,NULL,2 lbs.,S,"monk,trip",PZO1110,Melee,Strength,,Kama
+Knife_butterfly,Knife Butterfly,5 gp,1d4,19/x2,NULL,1 lb.,P or S,NULL,PPZO9410,Melee,Strength,,Knife Butterfly
+Knife_deer_horn,Knife Deer Horn,10 gp,1d4,x3,20 ft.,3 lbs.,P,"blocking,monk",PZO9468,Melee,Strength,,Knife Deer Horn
+Maulaxe_dwarven,Maulaxe Dwarven,25 gp,1d6,x3,10 ft.,5 lbs.,B or S,NULL,PPZO9410,Melee,Strength,,Maulaxe Dwarven
+Nunchaku,Nunchaku,2 gp,1d6,x2,NULL,2 lbs.,B,"disarm,monk",PZO1110,Melee,Strength,,Nunchaku
+Quadrens,Quadrens,8 gp,1d6,19/x2,NULL,2 lbs.,P,performance,PZO1118,Melee,Strength,,Quadrens
+Razor_drow,Razor Drow,25 gp,1d4,18/x2,NULL,2 lbs.,S,NULL,PPZO94102,Melee,Strength,,Razor Drow
+Rope_gauntlet,Rope Gauntlet,2 sp,1d4,x2,NULL,2 lbs.,B (or S),NULL,PPZO9410,Melee,Strength,,Rope Gauntlet
+Sabre_sawtoothAA1,Sabre Sawtoothaa1,35 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PPZO9410,Melee,Strength,,Sabre Sawtoothaa1
+Sai,Sai,1 gp,1d4,x2,NULL,1 lb.,B,"disarm,monk",PZO1110,Melee,Strength,,Sai
+Sanpkhang,Sanpkhang,60 gp,1d4,19/x2,NULL,1 lb.,P or S,"monk,",PPZO94102,Melee,Strength,,Sanpkhang
+Siangham,Siangham,3 gp,1d6,x2,NULL,1 lb.,P,monk,PZO1110,Melee,Strength,,Siangham
+Sica,Sica,10 gp,1d6,x2,NULL,2 lbs.,S,performance,PZO1118,Melee,Strength,,Sica
+Thorn_bracer,Thorn Bracer,30 gp,1d6,x2,NULL,3 lbs.,P,NULL,PCS,Melee,Strength,,Thorn Bracer
+War_shield_dwarven,War Shield Dwarven,50 gp,1d6,x2,NULL,8 lbs.,P or S,NULL,PPZO94102,Melee,Strength,,War Shield Dwarven
+Waveblade,Waveblade,5 gp,1d6,18/x2,NULL,2 lbs.,P or S,"monk,",PPZO94102,Melee,Strength,,Waveblade
+Whip_scorpion,Whip Scorpion,5 gp,1d4,x2,NULL,3 lbs.,S,"disarm,performance,reach,trip",PZO1118,Melee,Strength,,Whip Scorpion
+Heavy_Dwarven_Gauntlet_Axe,Heavy Dwarven Gauntlet Axe,21 gp,1d8,x3,NULL,5 lbs.,S,"blocking,disarm",PPC:HftF,Melee,Strength,,Heavy Dwarven Gauntlet Axe
+Axe_hooked,Axe Hooked,20 gp,1d8,x3,NULL,7 lbs.,S,"disarm,performance,trip",PZO1118,Melee,Strength,,Axe Hooked
+Broken_back_seax,Broken Back Seax,40 gp,1d10,19/x2,NULL,4 lbs.,P & S,NULL,PPC:MAH,Melee,Strength,,Broken Back Seax
+Estoc,Estoc,50 gp,2d4,18/x2,NULL,4 lbs.,P,NULL,PZO9468,Melee,Strength,,Estoc
+Falcata,Falcata,18 gp,1d8,19/x3,NULL,4 lbs.,S,NULL,PZO1115,Melee,Strength,,Falcata
+Flickmace,Flickmace,20 gp,1d8,x2,NULL,10 lb,B,"reach,trip",PC:GoG,Melee,Strength,,Flickmace
+Flindbar,Flindbar,9 gp,1d8,x2,NULL,6 lbs.,B and P,"disarm,trip",MC,Melee,Strength,,Flindbar
+Khopesh,Khopesh,20 gp,1d8,19/x2,NULL,8 lbs.,S,trip,PZO1115,Melee,Strength,,Khopesh
+Knobkerrie,Knobkerrie,5 gp,1d6,x2,20 ft.,4 lbs.,B,NULL,PPC:RTT,Melee,Strength,,Knobkerrie
+Ram_Hammer_Dwarven,Ram Hammer Dwarven,25 gp,1d8,x3,10 ft.,5 lbs.,B,NULL,PPC:HftF,Melee,Strength,,Ram Hammer Dwarven
+Rapier_spiral,Rapier Spiral,80 gp,1d6,18/x2,NULL,3 lbs.,P,"blocking,disarm",PPZO94102,Melee,Strength,,Rapier Spiral
+Rhoka,Rhoka,5 gp,1d8,18/x2,NULL,6 lbs.,S,NULL,PPZO9410,Melee,Strength,,Rhoka
+Sabre_sawtoothAG,Sabre Sawtoothag,35 gp,1d8,19/x2,NULL,2 lbs.,S,NULL,PZO9226-Revised,Melee,Strength,,Sabre Sawtoothag
+Shotel,Shotel,30 gp,1d8,x3,NULL,3 lbs.,P,performance,PZO1118,Melee,Strength,,Shotel
+Sickle_sword,Sickle Sword,20 gp,1d8,19/x2,NULL,4 lbs.,S,distracting,PPZO94102,Melee,Strength,,Sickle Sword
+Split_blade_sword,Split Blade Sword,200 gp,2d6,x2,NULL,8 lbs.,S,"disarm,trip",PPC:MAH,Melee,Strength,,Split Blade Sword
+Sword_dueling,Sword Dueling,20 gp,1d8,19/x2,NULL,3 lbs,S,NULL,PZO9226-Revised,Melee,Strength,,Sword Dueling
+Sword_bastard,Sword Bastard,35 gp,1d10,19/x2,NULL,6 lbs.,S,NULL,PZO1110,Melee,Strength,,Sword Bastard
+Tongi,Tongi,18 gp,1d6,19/x3,NULL,4 lbs.,P,NULL,PZO9468,Melee,Strength,,Tongi
+Waraxe_dwarven,Waraxe Dwarven,30 gp,1d10,x3,NULL,8 lbs.,S,NULL,PZO1110,Melee,Strength,,Waraxe Dwarven
+Waraxe_dwarven_double,Waraxe Dwarven Double,60 gp,1d10,x3,NULL,12 lbs.,S,NULL,PZO1121,Melee,Strength,,Waraxe Dwarven Double
+Whip,Whip,1 gp,1d3,x2,NULL,2 lbs.,S,"disarm,nonlethal,reach,trip",PZO1110,Melee,Strength,,Whip
+Axe_Orc_Double,Axe Orc Double,60 gp,1d8,x3,NULL,15 lbs.,S,double,PZO1110,Melee,Strength_half,,Axe Orc Double
+Axe_Butchering,Axe Butchering,65 gp,3d6,x3,NULL,25 lbs.,S,NULL,PPZO94102,Melee,Strength_half,,Axe Butchering
+Battle_Ladder_gnome,Battle Ladder Gnome,20 gp,1d6,x2,NULL,8 lbs.,B,trip,PPZO94102,Melee,Strength_half,,Battle Ladder Gnome
+Boarding_gaff,Boarding Gaff,8 gp,1d6,x2,NULL,8 lbs.,S,NULL,PPZO94102,Melee,Strength_half,,Boarding Gaff
+Chain_hammer,Chain Hammer,35 gp,1d6,x2,20 ft.,8 lbs.,B,NULL,PPZO94102,Melee,Strength_half,,Chain Hammer
+Chain_spiked,Chain Spiked,25 gp,2d4,x2,NULL,10 lbs.,P,"disarm,trip",PZO1110,Melee,Strength_half,,Chain Spiked
+Crook,Crook,1 gp,1d6,x2,NULL,5 lbs.,B,"reach,trip",PZO9468,Melee,Strength_half,,Crook
+Curve_blade_elven,Curve Blade Elven,80 gp,1d10,18/x2,NULL,7 lbs.,S,NULL,PZO1110,Melee,Strength_half,,Curve Blade Elven
+Dorn_Dergar_dwarven,Dorn Dergar Dwarven,50 gp,1d10,x2,NULL,15 lbs.,B,"reach,",PPZO94102,Melee,Strength_half,,Dorn Dergar Dwarven
+Elven_branched_spear,Elven Branched Spear,20 gp,1d8,x3,NULL,10 lbs.,P,"brace,reach",PZO9468,Melee,Strength_half,,Elven Branched Spear
+Fauchard,Fauchard,14 gp,1d10,18/x2,NULL,10 lbs.,S,"reach,trip",PPZO94102,Melee,Strength_half,,Fauchard
+Flail_dire,Flail Dire,90 gp,1d8,x2,NULL,10 lbs.,B,NULL,PZO1110,Melee,Strength_half,,Flail Dire
+Flailpole,Flailpole,15 gp,1d8,x2,NULL,10 lbs.,B,"disarm,reach,trip",PC:GoG,Melee,Strength_half,,Flailpole
+Flambard,Flambard,50 gp,1d10,19/x2,NULL,6 lbs.,S,sunder,PPZO9410,Melee,Strength_half,,Flambard
+Flying_blade,Flying Blade,40 gp,1d12,x3,NULL,12 lbs.,S,"performance,reach",PZO1118,Melee,Strength_half,,Flying Blade
+Garrote,Garrote,3 gp,1d6,x2,NULL,1 lb.,S,"grapple,",PPZO9410,Melee,Strength_half,,Garrote
+Giant_Sticker_Dwarven,Giant Sticker Dwarven,25 gp,2d6,x3,NULL,12 lbs.,P or S,"brace,reach",PPC:HftF,Melee,Strength_half,,Giant Sticker Dwarven
+Hammer_Gnome_hooked,Hammer Gnome Hooked,20 gp,1d8,x3,NULL,6 lbs.,B or P,"double,trip",PZO1110,Melee,Strength_half,,Hammer Gnome Hooked
+Harpoon,Harpoon,5 gp,1d8,x3,10 ft.,16 lbs.,P,grapple,PPC:Pirates,Melee,Strength_half,,Harpoon
+Longaxe_dwarven,Longaxe Dwarven,50 gp,1d12,x3,NULL,14 lbs.,S,reach,PZO1121,Melee,Strength_half,,Longaxe Dwarven
+Longhammer_dwarven,Longhammer Dwarven,70 gp,2d6,x3,NULL,20 lbs.,B,reach,PZO1121,Melee,Strength_half,,Longhammer Dwarven
+Mancatcher,Mancatcher,15 gp,1d2,x2,NULL,10 lbs.,P,"grapple,reach,",PZO1115,Melee,Strength_half,,Mancatcher
+Orc-skull-ram,Orc-Skull-Ram,15 gp,1d10,x3,NULL,20 lbs.,B,reach,PZO9468,Melee,Strength_half,,Orc-Skull-Ram
+Piston_maul_gnome,Piston Maul Gnome,70 gp,1d10,x2,NULL,15 lbs.,B,NULL,PPZO94102,Melee,Strength_half,,Piston Maul Gnome
+Ripsaw_glaive_gnome,Ripsaw Glaive Gnome,30 gp,1d10,x3,NULL,12 lbs.,S,reach,PPZO94102,Melee,Strength_half,,Ripsaw Glaive Gnome
+Scarf_bladed,Scarf Bladed,12 gp,1d6,x2,NULL,2 lbs.,S,"disarm,trip",PZO9226-Revised,Melee,Strength_half,,Scarf Bladed
+Spear_totem,Spear Totem,25 gp,1d10,x3,10 ft.,6 lbs.,P or S,NULL,PZO1110,Melee,Strength_half,,Spear Totem
+Sphinx_Hammer_Dwarven,Sphinx Hammer Dwarven,45 gp,1d10,x3,20 ft.,8 lbs.,B,NULL,PPC:HftF,Melee,Strength_half,,Sphinx Hammer Dwarven
+Switchscythe,Switchscythe,18 gp,2d4,x4,NULL,10 lbs.,P or S,trip,PPZO94102,Melee,Strength_half,,Switchscythe
+Sword_two_bladed,Sword Two Bladed,100 gp,1d8,19/x2,NULL,10 lbs.,S,double,PZO1110,Melee,Strength_half,,Sword Two Bladed
+Urgrosh_dwarven,Urgrosh Dwarven,50 gp,1d8,x3,NULL,12 lbs.,P or S,"brace,double",PZO1110,Melee,Strength_half,,Urgrosh Dwarven
+Bola,Bola,5 gp,1d4,x2,10 ft.,2 lbs.,B,"nonlethal,trip",PZO1110,Ranged,Strength,,Bola
+Bola_Brutal,Bola Brutal,15 gp,1d4,x2,10 ft.,2 lbs.,B and P,trip,PZO9226-Revised,Ranged,Strength,,Bola Brutal
+Boomerang,Boomerang,3 gp,1d6,x2,30 ft.,3 lbs.,B,NULL,PZO1115,Ranged,Strength,,Boomerang
+Bow_thorn,Bow Thorn,50 gp,1d6,x3,40 ft.,2 lbs.,P,NULL,PPZO9410,Ranged,None,,Bow Thorn
+Crossbow_crank_(heavy),Crossbow Crank (Heavy),400 gp,1d10,19/x2,120 ft.,12 lbs.,P,NULL,PPC:RTT,Ranged,None,,Crossbow Crank (Heavy)
+Crossbow_crank_(light),Crossbow Crank (Light),250 gp,1d8,19/x2,80 ft.,6 lbs.,P,NULL,PPC:RTT,Ranged,None,,Crossbow Crank (Light)
+Crossbow_double,Crossbow Double,300 gp,1d8,19/x2,80 ft.,18 lbs.,P,NULL,PZO1115,Ranged,None,,Crossbow Double
+Crossbow_hand,Crossbow Hand,100 gp,1d4,19/x2,30 ft.,2 lbs.,P,NULL,PZO1110,Ranged,None,,Crossbow Hand
+Heavy_repeating_crossbow,Heavy Repeating Crossbow,400 gp,1d10,19/x2,120 ft.,12 lbs.,P,NULL,PZO1110,Ranged,None,,Heavy Repeating Crossbow
+light_repeating_crossbow,Light Repeating Crossbow,250 gp,1d8,19/x2,80 ft.,6 lbs.,P,NULL,PZO1110,Ranged,None,,Light Repeating Crossbow
+Grappling_hook,Grappling Hook,6 gp,1d6,x2,10 ft.,14 lbs.,P,grapple,PPC:Pirates,Ranged,Strength,,Grappling Hook
+Hornbow_orc,Hornbow Orc,130 gp,2d6,x3,80 ft.,7 lbs.,P,NULL,PPZO94102,Ranged,None,,Hornbow Orc
+Javelin_stormshaft,Javelin Stormshaft,35 gp,1d6,x2,30 ft.,3 lbs.,P,NULL,PPZO94102,Ranged,Strength,,Javelin Stormshaft
+Heavy_Dwarven_Pelletbow,Heavy Dwarven Pelletbow,75 gp,1d6,19/x3,60 ft.,8 lbs.,B,NULL,PPC:HftF,Ranged,None,,Heavy Dwarven Pelletbow
+Light_Dwarven_Pelletbow,Light Dwarven Pelletbow,50 gp,1d4,19/x3,40 ft.,4 lbs.,B,NULL,PPC:HftF,Ranged,None,,Light Dwarven Pelletbow
+Shield_throwing,Shield Throwing,50gp,1d6,x2,20 ft.,NULL,B,"performance,trip",PZO1118,Ranged,Strength,,Shield Throwing
+Shrillshaft_javelin,Shrillshaft Javelin,35 gp,1d6,x2,30 ft.,3 lbs.,P,NULL,PPC:Goblins,Ranged,Strength,,Shrillshaft Javelin
+Shuriken_(5),Shuriken (5),1 gp,1d2,x2,10 ft.,1/2 lbs.,P,monk,CRB,Ranged,Strength,,Shuriken (5)
+Sling_double,Sling Double,10 gp,1d4,x2,50 ft.,1 lb.,B,"double,",PPC:Halflings,Ranged,Strength,,Sling Double
+Sling_glove,Sling Glove,5 gp,1d4,x2,50 ft.,2 lbs.,B,NULL,PPZO9410,Ranged,Strength,,Sling Glove
+Sling_staff_halfling,Sling Staff Halfling,20 gp,1d8,x3,80 ft.,3 lbs.,B,NULL,PZO1110,Ranged,Strength,,Sling Staff Halfling
+Sling_stitched,Sling Stitched,NULL,1d6,x2,NULL,1 lb.,B,"disarm,trip",PPC:Halflings,Ranged,Strength,,Sling Stitched
+Heavy_Wrist_Launcher,Heavy Wrist Launcher,250 gp,1d4,19/x2,30 ft.,2 lbs.,B,NULL,PZO1134,Ranged,Strength,,Heavy Wrist Launcher
+bite_1d2,Bite,,1d2,x2,,,B,NULL,,Melee,Strength,,
+bite_1d3,Bite,,1d3,x2,,,B,NULL,,Melee,Strength,,
+bite_1d4,Bite,,1d4,x2,,,B,NULL,,Melee,Strength,,
+bite_1d6,Bite,,1d6,x2,,,B,NULL,,Melee,Strength,,
+bite_1d8,Bite,,1d8,x2,,,B,NULL,,Melee,Strength,,
+bite_2d6,Bite,,2d6,x2,,,B,NULL,,Melee,Strength,,
+bite_4d8,Bite,,4d8,x2,,,B,NULL,,Melee,Strength,,
+claw_1d2,Claw,,1d2,x2,,,S,NULL,,Melee,Strength,,
+claw_1d3,Claw,,1d3,x2,,,S,NULL,,Melee,Strength,,
+claw_1d4,Claw,,1d4,x2,,,S,NULL,,Melee,Strength,,
+claw_1d6,Claw,,1d6,x2,,,S,NULL,,Melee,Strength,,
+claw_1d8,Claw,,1d8,x2,,,S,NULL,,Melee,Strength,,
+claw_2d6,Claw,,2d6,x2,,,S,NULL,,Melee,Strength,,
+claw_2d8,Claw,,2d8,x2,,,S,NULL,,Melee,Strength,,
+gore_1d2,Gore,,1d2,x2,,,P,NULL,,Melee,Strength,,
+gore_1d3,Gore,,1d3,x2,,,P,NULL,,Melee,Strength,,
+gore_1d4,Gore,,1d4,x2,,,P,NULL,,Melee,Strength,,
+gore_1d6,Gore,,1d6,x2,,,P,NULL,,Melee,Strength,,
+gore_1d8,Gore,,1d8,x2,,,P,NULL,,Melee,Strength,,
+gore_2d6,Gore,,2d6,x2,,,P,NULL,,Melee,Strength,,
+gore_2d8,Gore,,2d8,x2,,,P,NULL,,Melee,Strength,,
+gore_4d6,Gore,,4d6,x2,,,P,NULL,,Melee,Strength,,
+hoof_1d2,Hoof,,1d2,x2,,,B,NULL,,Melee,Half,,
+hoof_1d3,Hoof,,1d3,x2,,,B,NULL,,Melee,Half,,
+hoof_1d4,Hoof,,1d4,x2,,,B,NULL,,Melee,Half,,
+hoof_1d6,Hoof,,1d6,x2,,,B,NULL,,Melee,Half,,
+hoof_1d8,Hoof,,1d8,x2,,,B,NULL,,Melee,Half,,
+hoof_2d6,Hoof,,2d6,x2,,,B,NULL,,Melee,Half,,
+hoof_2d8,Hoof,,2d8,x2,,,B,NULL,,Melee,Half,,
+tentacle_1d2,Tentacle,,1d2,x2,,,B,NULL,,Melee,Half,,
+tentacle_1d3,Tentacle,,1d3,x2,,,B,NULL,,Melee,Half,,
+tentacle_1d4,Tentacle,,1d4,x2,,,B,NULL,,Melee,Half,,
+tentacle_1d6,Tentacle,,1d6,x2,,,B,NULL,,Melee,Half,,
+tentacle_1d8,Tentacle,,1d8,x2,,,B,NULL,,Melee,Half,,
+tentacle_2d6,Tentacle,,2d6,x2,,,B,NULL,,Melee,Half,,
+tentacle_2d8,Tentacle,,2d8,x2,,,B,NULL,,Melee,Half,,
+wing_1d2,Wing,,1d2,x2,,,B,NULL,,Melee,Half,,
+wing_1d3,Wing,,1d3,x2,,,B,NULL,,Melee,Half,,
+wing_1d4,Wing,,1d4,x2,,,B,NULL,,Melee,Half,,
+wing_1d6,Wing,,1d6,x2,,,B,NULL,,Melee,Half,,
+wing_1d8,Wing,,1d8,x2,,,B,NULL,,Melee,Half,,
+wing_2d6,Wing,,2d6,x2,,,B,NULL,,Melee,Half,,
+wing_2d8,Wing,,2d8,x2,,,B,NULL,,Melee,Half,,
+pincers_1d2,Pincers,,1d2,x2,,,P,NULL,,Melee,Half,,
+pincers_1d3,Pincers,,1d3,x2,,,P,NULL,,Melee,Half,,
+pincers_1d4,Pincers,,1d4,x2,,,P,NULL,,Melee,Half,,
+pincers_1d6,Pincers,,1d6,x2,,,P,NULL,,Melee,Half,,
+pincers_1d8,Pincers,,1d8,x2,,,P,NULL,,Melee,Half,,
+pincers_2d6,Pincers,,2d6,x2,,,P,NULL,,Melee,Half,,
+pincers_2d8,Pincers,,2d8,x2,,,P,NULL,,Melee,Half,,
+pincers_4d6,Pincers,,4d6,x2,,,P,NULL,,Melee,Half,,
+tail_slap_1d2,Tail Slap,,1d2,x2,,,P,NULL,,Melee,Half,,
+tail_slap_1d3,Tail Slap,,1d3,x2,,,P,NULL,,Melee,Half,,
+tail_slap_1d4,Tail Slap,,1d4,x2,,,P,NULL,,Melee,Half,,
+tail_slap_1d6,Tail Slap,,1d6,x2,,,P,NULL,,Melee,Half,,
+tail_slap_1d8,Tail Slap,,1d8,x2,,,P,NULL,,Melee,Half,,
+tail_slap_2d6,Tail Slap,,2d6,x2,,,P,NULL,,Melee,Half,,
+tail_slap_2d8,Tail Slap,,2d8,x2,,,P,NULL,,Melee,Half,,
+tail_slap_4d6,Tail Slap,,4d6,x2,,,P,NULL,,Melee,Half,,
+slam_1d2,Slam,,1d2,x2,,,B,NULL,,Melee,Strength,,
+slam_1d3,Slam,,1d3,x2,,,B,NULL,,Melee,Strength,,
+slam_1d4,Slam,,1d4,x2,,,B,NULL,,Melee,Strength,,
+slam_1d6,Slam,,1d6,x2,,,B,NULL,,Melee,Strength,,
+slam_1d8,Slam,,1d8,x2,,,B,NULL,,Melee,Strength,,
+slam_2d6,Slam,,2d6,x2,,,B,NULL,,Melee,Strength,,
+slam_2d8,Slam,,2d8,x2,,,B,NULL,,Melee,Strength,,
+sting_1d2,Sting,,1d2,x2,,,P,NULL,,Melee,Strength,,
+sting_1d3,Sting,,1d3,x2,,,P,NULL,,Melee,Strength,,
+sting_1d4,Sting,,1d4,x2,,,P,NULL,,Melee,Strength,,
+sting_1d6,Sting,,1d6,x2,,,P,NULL,,Melee,Strength,,
+sting_1d8,Sting,,1d8,x2,,,P,NULL,,Melee,Strength,,
+sting_2d6,Sting,,2d6,x2,,,P,NULL,,Melee,Strength,,
+sting_2d8,Sting,,2d8,x2,,,P,NULL,,Melee,Strength,,
+Talons_1d2,Talons,,1d2,x2,,,S,NULL,,Melee,Strength,,
+Talons_1d3,Talons,,1d3,x2,,,S,NULL,,Melee,Strength,,
+Talons_1d4,Talons,,1d4,x2,,,S,NULL,,Melee,Strength,,
+Talons_1d6,Talons,,1d6,x2,,,S,NULL,,Melee,Strength,,
+Talons_1d8,Talons,,1d8,x2,,,S,NULL,,Melee,Strength,,
+Talons_2d6,Talons,,2d6,x2,,,S,NULL,,Melee,Strength,,
+Talons_2d8,Talons,,2d8,x2,,,S,NULL,,Melee,Strength,,

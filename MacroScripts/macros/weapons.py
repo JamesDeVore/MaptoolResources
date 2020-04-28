@@ -29,6 +29,30 @@ Crit chance! [1d20+attack_stat+BAB-SizeMod+attack_bonus] to confirm&lt;br&gt;
 [crit_damage] extra damage
 };{}]'''
 
+generic_half = '''[h:Name="%s"]
+[h:type="%s damage"]
+[h:dice=%s]
+[h:ndice=%s]
+[h:attack_bonus=0]
+[h:crit_low=%s]
+[h:damage_mod=StrMod]
+[h:crit_mult=%s]
+[h:damage_dice=roll(ndice,dice)]
+[h:crit_dice=roll(ndice,dice)]
+[h:attack_stat=floor(StrMod /2 )]
+[h:roll=1d20]
+
+[h:crit_damage=reroll(crit_mult-1, dice+damage_mod, 1+damage_mod)]
+
+[Name]: [roll+attack_stat+BAB-SizeMod+attack_bonus]&lt;br&gt;
+[damage_dice+damage_mod] [type]
+
+[if(roll>=crit_low), CODE:{
+&lt;br&gt;
+Crit chance! [1d20+attack_stat+BAB-SizeMod+attack_bonus] to confirm&lt;br&gt;
+[crit_damage] extra damage
+};{}]'''
+
 generic_zero = '''[h:Name="%s"]
 [h:type="%s damage"]
 [h:dice=%s]
@@ -136,7 +160,7 @@ print(melee_weps.head())
 def makeCommand(pandasRow):
 
   file_name = pandasRow.Name.lower()
-  label_name = pandasRow.Name.replace("_"," ")
+  label_name = pandasRow.Chat
   dmgDiceList = pandasRow.Dmg.split("d")
   criticals = parseCritical(pandasRow.Critical)
   # types = parseTypes(pandasRow.Special)
@@ -147,6 +171,8 @@ def makeCommand(pandasRow):
     template_string = generic_Str_half
   elif(pandasRow.Damage_Mod == "None"):
     template_string = generic_zero
+  elif(pandasRow.Damage_Mod == "Half"):
+    template_string = generic_half
 
   
   commandString = ( template_string % (label_name,dmg_type,dmgDiceList[1],dmgDiceList[0],criticals[0],criticals[1]))
