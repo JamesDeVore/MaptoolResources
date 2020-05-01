@@ -1,0 +1,10 @@
+<net.rptools.maptool.model.LookupTable>
+  <entryList>
+    {{ l }}
+  </entryList>
+  <name>PFSpellDescriptions</name>
+  <defaultRoll>d0</defaultRoll>
+  <visible>false</visible>
+  <allowLookup>true</allowLookup>
+  <pickOnce>false</pickOnce>
+</net.rptools.maptool.model.LookupTable>
