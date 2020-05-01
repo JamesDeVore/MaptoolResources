@@ -176,7 +176,7 @@ class Entry:
         setattr(self, k, v);
   def content_xml(self):
     if isinstance(self.allValues, str):
-      self.allValues = self.allValues.replace('"',"&quot;")
+      self.allValues = self.allValues.replace('"',"&apos;")
     return entry_template.render(t=self)
   
 all_entry_list = []
