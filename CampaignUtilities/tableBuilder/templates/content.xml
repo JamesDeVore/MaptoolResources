@@ -2,7 +2,7 @@
   <entryList>
     {{ l }}
   </entryList>
-  <name>PFSpellDescriptions</name>
+  <name>PFSpellListIndex</name>
   <defaultRoll>d0</defaultRoll>
   <visible>false</visible>
   <allowLookup>true</allowLookup>

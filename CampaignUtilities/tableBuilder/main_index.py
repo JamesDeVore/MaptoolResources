@@ -8,6 +8,7 @@ import uuid
 import pandas as pd
 import numpy as np
 import json
+import zipfile
 
 import jinja2
 from PIL import Image
@@ -15,6 +16,7 @@ from six import iteritems
 
 
 all_spells = pd.read_csv("./csvData/spell_index.csv")
+all_spells.fillna('', inplace=True)
 
 
 properties_xml = '''<map>
@@ -38,6 +40,7 @@ index_types = [
 {'dndClass':'Wizard'},
 {'dndClass':'Alchemist'},
 {'dndClass':'Summoner'},
+{'dndClass':'Witch'},
 {'dndClass':'Inquisitor'},
 {'dndClass':'Oracle'},
 {'dndClass':'Antipaladin'},
@@ -53,39 +56,6 @@ index_types = [
 {'dndClass':'Skald'},
 {'dndClass':'Investigator'},
 {'dndClass':'Hunter'},
-# {'domain':'Air'},
-# {'domain':'Animal'},
-# {'domain':'Artifice'},
-# {'domain':'Chaos'},
-# {'domain':'Charm'},
-# {'domain':'Community'},
-# {'domain':'Darkness'},
-# {'domain':'Death'},
-# {'domain':'Destruction'},
-# {'domain':'Earth'},
-# {'domain':'Evil'},
-# {'domain':'Fire'},
-# {'domain':'Glory'},
-# {'domain':'Good'},
-# {'domain':'Healing'},
-# {'domain':'Knowledge'},
-# {'domain':'Law'},
-# {'domain':'Liberation'},
-# {'domain':'Luck'},
-# {'domain':'Madness'},
-# {'domain':'Magic'},
-# {'domain':'Nobility'},
-# {'domain':'Plant'},
-# {'domain':'Protection'},
-# {'domain':'Repose'},
-# {'domain':'Rune'},
-# {'domain':'Strength'},
-# {'domain':'Sun'},
-# {'domain':'Travel'},
-# {'domain':'Trickery'},
-# {'domain':'War'},
-# {'domain':'Water'},
-# {'domain':'Weather'},
 {'school':'Abjuration'},
 {'school':'Conjuration'},
 {'school':'Divination'},
@@ -118,41 +88,7 @@ index_types = [
 {'alpha':'U'},
 {'alpha':'V'},
 {'alpha':'W'},
-{'alpha':'Y'},
 {'alpha':'Z'}
-# {'subschool':'Calling'},
-# {'subschool':'Compulsion'},
-# {'subschool':'Creation'},
-# {'subschool':'Figment'},
-# {'subschool':'Glamer'},
-# {'subschool':'Healing'},
-# {'subschool':'Pattern'},
-# {'subschool':'Phantasm'},
-# {'subschool':'Polymorph'},
-# {'subschool':'Scrying'},
-# {'subschool':'Shadow'},
-# {'subschool':'Summoning'},
-# {'subschool':'Teleportation'},
-# {'descriptor':'acid'},
-# {'descriptor':'air'},
-# {'descriptor':'chaotic'},
-# {'descriptor':'cold'},
-# {'descriptor':'creation'},
-# {'descriptor':'darkness'},
-# {'descriptor':'death'},
-# {'descriptor':'earth'},
-# {'descriptor':'electricity'},
-# {'descriptor':'evil'},
-# {'descriptor':'fear'},
-# {'descriptor':'fire'},
-# {'descriptor':'force'},
-# {'descriptor':'good'},
-# {'descriptor':'language-dependent'},
-# {'descriptor':'lawful'},
-# {'descriptor':'light'},
-# {'descriptor':'mind-affecting'},
-# {'descriptor':'sonic'},
-# {'descriptor':'water'}
 ]
 
 entry_template = '''
@@ -160,8 +96,7 @@ entry_template = '''
       <min>{{ t.num }}</min>
       <max>{{t.num }}</max>
       <value>{{ t.allValues }}</value>      
-    </net.rptools.maptool.model.LookupTable_-LookupEntry>
-    '''
+    </net.rptools.maptool.model.LookupTable_-LookupEntry>'''
 
 with open('templates/content.xml') as f:
     content_template = jinja2.Template(f.read())
@@ -176,7 +111,7 @@ class Entry:
         setattr(self, k, v);
   def content_xml(self):
     if isinstance(self.allValues, str):
-      self.allValues = self.allValues.replace('"',"&apos;")
+      self.allValues = self.allValues.replace('"',"&quot;")
     return entry_template.render(t=self)
   
 all_entry_list = []
@@ -210,8 +145,8 @@ for test_entry in index_types:
       final_list.append(this_lvl_spells)
   if(entry_type == "alpha"):
     letter = test_entry["alpha"][0]
-    filtered = all_spells.loc[all_spells["name"].str.startswith(letter)]
-    print(filtered)
+    filtered = all_spells.loc[all_spells["spellName"].str.startswith(letter)]
+    print(letter)
     max_lvl = int(filtered["SLA_Level"].max())
 
     for lvl in range(0,max_lvl + 1):
@@ -234,9 +169,18 @@ for test_entry in index_types:
 #   temp_xml = temp_entry.content_xml()
 #   all_entry_list.append(temp_xml)
 final_output = content_template.render(l="".join(all_entry_list).replace("'","&quot;"))
+def make_file(file, mode='w', compressed=True):
+        c = zipfile.ZIP_DEFLATED if compressed else zipfile.ZIP_STORED
+        with zipfile.ZipFile(file, mode=mode, compression=c) as f:
+            f.writestr('content.xml', final_output)
+            f.writestr('properties.xml', properties_xml)
+make_file("./output/zipped/index.mttable")
 file = open("./output/index_content.xml","w")
 file.write(final_output)
 file.close()
+file2 = open("./output/names.txt","w")
+temp_list = all_spells["spellName"].tolist()
+file2.write(json.dumps(temp_list))
 
 
 
